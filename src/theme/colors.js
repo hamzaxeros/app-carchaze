@@ -1,0 +1,27 @@
+export default {
+  default: {
+    basic_color: '#FF3B30',
+    app_bg_color: '#F2F2F7',
+    status_bg_color: '#FFF',
+    tab_active_color: 'rgb(245, 56, 48)',
+    tab_inactive_color: '#AEAEB2',
+    top_navigation_bg_color: '#FFF',
+    basic_loader_color: 'rgba(228, 76, 70, 0.931)',
+    success: '#0aaf20',
+    error: '#df1414',
+    warning: '#dba613',
+    info: '#0875b4',
+    popup_color: '#f0f0f0',
+    popup_dark_color: '#e0e0e0',
+    popup_bg_color: '#cccccc',
+    action_sheet_border_color: '#c0c0c0',
+    modal_sheet_bg_color: 'rgba(0,0,0,0.3)',
+    modal_sheet_light_bg_color: '#e2e2e2dd',
+    alert_input_color: '#cfcfcf',
+    toast_color: '#ec7272cf',
+    switch_disable_color: 'rgb(134, 134, 138)',
+    basic_border_color: '#3c3c4336',
+    disabled_color: 'rgb(190,190,190)',
+    icon_color:'rgb(150,150,150)'
+  },
+};
