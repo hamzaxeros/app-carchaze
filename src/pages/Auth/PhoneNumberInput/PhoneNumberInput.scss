@@ -1,0 +1,28 @@
+.Auth__EnterPhone-outer{
+    margin: 44px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Auth__EnterPhone-top_text{
+    margin-bottom: 44px;
+}
+.Auth__EnterPhone-input_number{
+    margin-bottom: 10px;
+}
+.Auth__EnterPhone-empty-space{
+
+    height: 400px;
+}
+.Auth__EnterPhone-terms_text{
+    margin-bottom: 10px;
+}
+.Auth__EnterPhone-agree_text{
+    margin-bottom: 10px;
+}
+.Auth__EnterPhone-terms_text{
+    margin-bottom: 16px;
+
+    color: $mainColor;
+}

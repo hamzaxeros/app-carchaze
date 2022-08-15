@@ -908,8 +908,13 @@ img {
 @import "./font";
 
 // =============================  Component - Public  =============================
+@import "../../components/public/resources/Button/button";
+@import "../../components/public/resources/Input/input";
 
 // =============================  Component - Utility  =============================
 
 // =============================  Pages - Static  =============================
 @import "../../pages/Home/home";
+@import "../../pages/Auth/PhoneNumberInput/PhoneNumberInput.scss";
+@import "../../pages/Auth/OTP/otp.scss";
+@import "../../pages/Auth/NamesInput/nameInput";

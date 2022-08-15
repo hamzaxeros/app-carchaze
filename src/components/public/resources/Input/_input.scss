@@ -1,0 +1,29 @@
+.Input_icon{
+    position: absolute;
+    left: 3px;
+    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
+  }
+#Input{
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #00000040;
+    padding-left: 28px;
+
+
+}
+.Input_wrapper{
+    position: relative;
+}
+.Input_lable::before{
+    content: "First Name";
+    padding: 6px;
+    background-color: white;
+    height: 25px;
+    font-size: small;
+    // width: 100px;
+    position: absolute;
+    left: 20px;
+    z-index: 4;
+    display: block;
+    top: -14
+}

@@ -20,3 +20,4 @@ export const OS = () => {
 	return platform.os?.family;
 };
 
+export const isMobile = !(OS() === 'Android'|| OS() === "iOS")
