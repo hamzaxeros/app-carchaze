@@ -12,9 +12,9 @@
 import React from "react"
 
 /**
- * 
- * @param {style} style - Css Style 
- * @param {title} title - Title for Button text 
+ * Primary Button
+ * @param {object} style - Css Style 
+ * @param {string} title - Title for Button text 
  */
 const Button = (props) => {
 

@@ -14,8 +14,8 @@ import {FaFlagUsa} from 'react-icons/fa'
 
 /**
  * Input Component
- * @param {placeholder} placeholder - Placeholder for Input 
- * @param {label} label - Top label for Input
+ * @param {string} placeholder - Placeholder for Input 
+ * @param {string} label - Top label for Input
  */
 const Input = (props) => {
 
