@@ -13,7 +13,7 @@ import React from "react"
 
 /**
  * Primary Button
- * @param {object} style - Css Style 
+ * @param {Object} [style] - Css Style 
  * @param {string} title - Title for Button text 
  */
 const Button = (props) => {
