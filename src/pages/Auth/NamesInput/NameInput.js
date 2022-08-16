@@ -20,15 +20,15 @@ const NameInput = (props) => {
 
   return (
       <div className="Auth__NameInput-outer">
-        <p className="Auth__NameInput-top_text">Please Provide complete name as presented on your CNIC</p>
+        <div>
+            <p className="Auth__NameInput-top_text">Please Provide complete name as presented on your CNIC</p>
 
-        <div className="Auth__NameInput-first_name"><Input placeholder={"Enter your first name"}/></div>
-        <div className="Auth__NameInput-last_name"><Input placeholder={"Enter your last name"}/></div>
+            <div className="Auth__NameInput-first_name"><Input label={"First Name"}  placeholder={"Enter your first name"}/></div>
+            <div className="Auth__NameInput-last_name"><Input label={"Last Name"} placeholder={"Enter your last name"}/></div>
 
 
-        <p className="Auth__NameInput-small_text">After entering your "Name", You may not be able to change later</p>
-
-        <div className="Auth__NameInput-empty_space"></div>
+            <p className="Auth__NameInput-small_text">After entering your "Name", You may not be able to change later</p>
+        </div>
 
         <div className="Auth__NameInput-btn">
             <Button title={"continue"} />

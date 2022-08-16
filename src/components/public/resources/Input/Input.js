@@ -12,17 +12,23 @@
 import React from "react"
 import {FaFlagUsa} from 'react-icons/fa'
 
+/**
+ * Input Component
+ * @param {placeholder} placeholder - Placeholder for Input 
+ * @param {label} label - Top label for Input
+ */
 const Input = (props) => {
 
   return (
     <React.Fragment>
       <div class="Input_wrapper">
-        <input id="Input" placeholder={props.placeholder}/>
-        <label for="Input"  className="Input_lable"></label>
-        <label for="Input" className="Input_icon"><FaFlagUsa /></label>
+        <input className="Input" id={`Input-${props.placeholder}`} placeholder={props.placeholder}/>
+        <label data-content={props.label} for={`Input-${props.placeholder}`}  className="Input_lable"></label>
+        <label for={`Input-${props.placeholder}`} className="Input_icon"><FaFlagUsa /></label>
       </div>
     </React.Fragment>
   )
 }
+
 
 export default Input

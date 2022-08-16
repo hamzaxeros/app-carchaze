@@ -22,15 +22,18 @@ import Button from "../../../components/public/resources/Button/Button";
    return (
      <React.Fragment>
          <div className="Auth__EnterPhone-outer">
-             <p className="Auth__EnterPhone-top_text">Please Provide phone number registered in your name to connect you about trip and to connect host with driver</p>
-             <div className="Auth__EnterPhone-input_number"><Input placeholder={"Enter Phone Number"}/></div>
-             <p className="Auth__EnterPhone-little_text">By entering your phone number may recieve an SMS for varificataion, Messesge and data rate may applay</p>
- 
-             <div className="Auth__EnterPhone-empty-space"></div>
-             <p className="Auth__EnterPhone-Agree_text">Tap "Agree & continue" to accept the CarChaze </p>
-             <p className="Auth__EnterPhone-terms_text">Terms of Services & Privicy policy</p>
- 
-             <Button title={"Agree & Continue"} />
+             <div>
+                  <p className="Auth__EnterPhone-top_text">Please Provide phone number registered in your name to connect you about trip and to connect host with driver</p>
+                  <div className="Auth__EnterPhone-input_number"><Input label={"Phone Number"} placeholder={"Enter Phone Number"}/></div>
+                  <p className="Auth__EnterPhone-small_text">By entering your phone number may recieve an SMS for varificataion, Messesge and data rate may applay</p>
+             </div>
+
+             <div className="Auth__EnterPhone-footer">
+                <p className="Auth__EnterPhone-Agree_text">Tap "Agree & continue" to accept the CarChaze </p>
+                <p className="Auth__EnterPhone-terms_text">Terms of Services & Privicy policy</p>
+    
+                <Button title={"Agree & Continue"} />
+             </div>
          </div>
      </React.Fragment>
    )

@@ -1,9 +1,11 @@
 .Auth__NameInput-outer{
     margin: 44px 16px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    height: 86vh;
+    min-height: 400px;
     align-items: center;
+    flex-direction: column;
 }
 .Auth__NameInput-top_text{
     margin-bottom: 44px;
@@ -17,10 +19,10 @@
 .Auth__NameInput-small_text{
     font-size: small;
 }
-.Auth__NameInput-empty_space{
-
-    height: 450px;
-}
 .Auth__NameInput-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
 }

@@ -11,11 +11,16 @@
 
 import React from "react"
 
+/**
+ * 
+ * @param {style} style - Css Style 
+ * @param {title} title - Title for Button text 
+ */
 const Button = (props) => {
 
   return (
     <React.Fragment>
-      <button className="Auth-button">{props.title}</button>
+      <button className="Button" style={props.style}>{props.title}</button>
     </React.Fragment>
   )
 }
