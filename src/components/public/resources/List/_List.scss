@@ -1,0 +1,22 @@
+.List-outer{
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    padding: 8px 16px;
+}
+.List-right_content{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+}
+.List-right_text{
+    font-size: smaller;
+    opacity: .6;
+}
+.List-right_arrow{
+    opacity: .6;
+    margin: 4px;
+}

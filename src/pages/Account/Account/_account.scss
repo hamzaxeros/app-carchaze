@@ -1,0 +1,35 @@
+.Account-outer{
+    margin: 44px 0px;
+}
+.Account-profile_sec{
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #00000040;
+    border-top: 1px solid #00000040;
+}
+.Account-profile_sec_text{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    justify-content: center;
+}
+
+.Account-profile_sec_date{
+    font-size: small;
+}
+.Account-profile_sec_trip{
+    font-size: small;
+    opacity: .7;
+}
+
+.Account-profile_sec_pic_outer{
+    img{
+        height: 70px;
+    }
+}
+.Account-profile_sec_arrow{
+    flex: 1 0;
+    display: flex;
+    justify-content: end;
+}

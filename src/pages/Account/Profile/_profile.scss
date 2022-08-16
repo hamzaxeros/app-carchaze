@@ -1,0 +1,38 @@
+.Profile-outer{
+    margin: 44px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        height: 70px;
+    }
+    .Profile-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h3{
+            margin: 10px;
+            opacity: .6;
+        }
+    }
+   
+
+} 
+.Profile-textArea_outer{
+    display: flex;
+    justify-content: center;
+    textarea{
+        border: 1px solid #00000040;
+        border-radius:8px;
+        width: 100%;
+    }
+}
+.Profile-textArea_label{
+    position: absolute;
+}
+.Profile-small_heading{
+    font-size: small;
+    padding: 8px 16px;
+    opacity: .7;
+}

@@ -904,12 +904,20 @@ img {
 	pointer-events: none;
 }
 
+.space-16{
+	height: 16px;
+}
+.space-44{
+	height: 44px;
+}
+
 @import "./variables";
 @import "./font";
 
 // =============================  Component - Public  =============================
 @import "../../components/public/resources/Button/button";
 @import "../../components/public/resources/Input/input";
+@import "../../components/public/resources/List/List";
 
 // =============================  Component - Utility  =============================
 
@@ -918,3 +926,6 @@ img {
 @import "../../pages/Auth/PhoneNumberInput/PhoneNumberInput.scss";
 @import "../../pages/Auth/OTP/otp.scss";
 @import "../../pages/Auth/NamesInput/nameInput";
+@import "../../pages/Account/Account/account";
+@import "../../pages/Account/Profile/profile";
+@import "../../pages/Account/AccountManager/accountManager";
