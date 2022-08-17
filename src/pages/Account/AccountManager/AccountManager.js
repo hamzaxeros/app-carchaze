@@ -24,15 +24,15 @@ const AccountManager = (props) => {
         <List leftText="Changer Phone" rightText={"+923001234567"} />
         <List leftText={"Facebook"} rightText={"Not connected"} />
         <List leftText={"Email"} rightText={"Not connected"} />
-        <div className="space-44"></div>
+        {/* <div className="space-44"></div>
         <p className="AccountManager-small_heading">TRANSACTION METHODS</p>
         <List leftText={"Payment Card"}  />
         <List leftText={"Payout methods"} />
         <List leftText={"Travel credits"} rightText={"Rs.3000"} />
         <div className="space-44"></div>
         <p className="AccountManager-small_heading">MOBILE NOTIFICATONS</p>
-        <List leftText={"Text message notifications"} rightArrow={false} />
-        <List leftText={"Push notifications"} />
+        <List leftText={"Text message notifications"} rightArrowNone={false} />
+        <List leftText={"Push notifications"} /> */}
         <div className="space-44"></div>
         <Button style={{"color":'red',"backgroundColor":'transparent'}} title={"Close my account"} />
       </div>

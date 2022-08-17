@@ -910,6 +910,30 @@ img {
 .space-44{
 	height: 44px;
 }
+.mt-44{
+	margin-top: 44px;
+}
+.mb-44{
+	margin-bottom: 44px;
+}
+.mv-44{
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
+.mt-16{
+	margin-top: 16px
+}
+.mb-16{
+	margin-bottom: 16px
+}
+.mv-16{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.mh-16{
+	margin-left: 16px;
+	margin-right: 16px;
+}
 
 @import "./variables";
 @import "./font";
@@ -918,14 +942,20 @@ img {
 @import "../../components/public/resources/Button/button";
 @import "../../components/public/resources/Input/input";
 @import "../../components/public/resources/List/List";
+@import "../../components/public/resources/ListWithIcons/listWithIcons";
 
 // =============================  Component - Utility  =============================
 
 // =============================  Pages - Static  =============================
 @import "../../pages/Home/home";
-@import "../../pages/Auth/PhoneNumberInput/PhoneNumberInput.scss";
-@import "../../pages/Auth/OTP/otp.scss";
+@import "../../pages/Auth/PhoneNumberInput/PhoneNumberInput";
+@import "../../pages/Auth/OTP/otp";
 @import "../../pages/Auth/NamesInput/nameInput";
 @import "../../pages/Account/Account/account";
 @import "../../pages/Account/Profile/profile";
 @import "../../pages/Account/AccountManager/accountManager";
+@import "../../pages//Account/Membership/membership";
+@import "../../pages/Account/Facebook/facebook";
+@import "../../pages/Account/DrivingLicense/drivingLicense";
+@import "../../pages/Account/ChangeNumber/changeNumber";
+@import "../../pages/Account/TakSelfie/takeSelfie";

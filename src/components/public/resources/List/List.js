@@ -17,7 +17,7 @@ import {IoIosArrowForward} from "react-icons/io"
  *  List for Account
  * @param {string} rightText - Righ side text of the list 
  * @param {string} leftText - Left side text of the list
- * @param {boolean} leftArrow - Left Arrow of the list to disable 
+ * @param {boolean} rightArrowNone - Left Arrow of the list to disable 
  * @returns 
  */
 const List = (props) => {
@@ -33,7 +33,7 @@ const List = (props) => {
               {props.rightText}
             </div>
             <div className="List-right_arrow">
-              {!(props.rightArrow)?<IoIosArrowForward/>:''}
+              {!(props.rightArrowNone)?<IoIosArrowForward/>:''}
             </div>
           </div>
       </div>

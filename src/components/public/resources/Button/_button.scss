@@ -1,6 +1,9 @@
 .Button{
     background-color: $mainColor;
-    height: 44px;
+    min-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
     color: white;
     border-radius: 6px;

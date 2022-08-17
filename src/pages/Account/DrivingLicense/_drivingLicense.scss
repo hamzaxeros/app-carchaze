@@ -1,0 +1,25 @@
+.AccLicense-outer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+    flex-direction: column;
+}
+.AccLicense-pic_text{
+    text-align: center;
+    opacity: .6;
+    margin: 16px;
+}
+.AccLicense-front_pic{
+    opacity: .5;
+    max-height: 200px;
+    height: 200px;
+}
+.AccLicense-back_pic{
+    opacity: .5;
+    max-height: 200px;
+    height: 200px;
+}
+.AccLicense-footer{
+    width: 100%;
+}

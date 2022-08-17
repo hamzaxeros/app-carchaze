@@ -1,0 +1,31 @@
+.ListWithIcons-outer{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+
+
+}
+.ListWithIcons-left_icon{
+    height: 60px;
+}
+.ListWithIcons-text{
+    margin: 6px 10px;
+}
+.ListWithIcons-text_small{
+    margin-top: 4px;
+    opacity: .6;
+}
+.ListWithIcons-right_icon{
+    width: 100%;
+    color: $mainColor;
+    font-size: 22px;
+}
+.ListWithIcons-right_icon_outer{
+    display: flex;
+    flex: 1;
+}
+.ListWithIcons-section_2{
+
+}
