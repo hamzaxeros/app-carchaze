@@ -18,6 +18,18 @@ import Facebook from "../../../pages/Account/Facebook/Facebook";
 import Membership from "../../../pages/Account/Membership/Membership";
 import DrivingLicense from "../../../pages/Account/DrivingLicense/DrivingLicense";
 import TakeSelfie from "../../../pages/Account/TakSelfie/TakeSelfie";
+import AddVehicle from "../../../pages/Host/Listing/Basic/AddVehicle/AddVehicle";
+import IdentifyVehicle from "../../../pages/Host/Listing/Basic/IdentifyVehicle/IdentifyVehicle";
+import AddAddress from "../../../pages/Host/Listing/Location/AddAddress/AddAddress";
+import ExactLocation from "../../../pages/Host/Listing/Location/ExactLocation/ExactLocation";
+import SearchAddAddress from "../../../pages/Host/Listing/Location/SearchAddAddress/SearchAddAddress";
+import Eligible from "../../../pages/Host/Listing/Eligibility/Eligible/Eligible";
+import NotEligible from "../../../pages/Host/Listing/Eligibility/NotEligilble/NotEligible";
+import FeaturesGrid from "../../../pages/Host/Listing/Features/FeaturesGrid/FeaturesGrid";
+import FeaturesList from "../../../pages/Host/Listing/Features/FeaturesList/FeaturesList";
+import AddNewFeatures from "../../../pages/Host/Listing/Features/AddNewFeature/AddNewFeatures";
+import DeleteCustomFeature from "../../../pages/Host/Listing/Features/DeleteCustomFeature/DeleteCustomFeature";
+import ListingPhotos from "../../../pages/Host/Listing/Photos/ListingPhotos";
 
 import { PublicRoutes } from "../../../routes";
 
@@ -29,7 +41,18 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-			<ChangeNumber />
+			<ListingPhotos />
+			{/* <DeleteCustomFeature /> */}
+			{/* <AddNewFeatures /> */}
+			{/* <FeaturesList /> */}
+			{/* <NotEligible /> */}
+			{/* <Eligible /> */}
+			{/* <ExactLocation /> */}
+			{/* <AddAddress /> */}
+			{/* <SearchAddAddress /> */}
+			{/* <IdentifyVehicle /> */}
+			{/* <AddVehicle /> */}
+			{/* <ChangeNumber /> */}
 			{/* <DrivingLicense /> */}
 			{/* <Facebook />	 */}
 			{/* <TakeSelfie /> */}

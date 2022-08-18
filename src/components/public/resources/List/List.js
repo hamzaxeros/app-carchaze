@@ -18,7 +18,7 @@ import {IoIosArrowForward} from "react-icons/io"
  * @param {string} rightText - Righ side text of the list 
  * @param {string} leftText - Left side text of the list
  * @param {boolean} rightArrowNone - Left Arrow of the list to disable 
- * @returns 
+ * @param {Object} [style] - Css style
  */
 const List = (props) => {
   
@@ -26,7 +26,7 @@ const List = (props) => {
 
   return (
     <React.Fragment>
-      <div className="List-outer">
+      <div className="List-outer" style={props.style}>
         <div className="List-left_name">{props.leftText}</div>
           <div className="List-right_content">
             <div className="List-right_text">

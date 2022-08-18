@@ -1,0 +1,19 @@
+.ExactLocation-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ExactLocation-head_text{
+    margin: 16px;
+}
+.ExactLocation-map{
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+    height: 500px;
+}
+.ExactLocation-footer{
+    width: 90%;
+}

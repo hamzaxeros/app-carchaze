@@ -1,0 +1,16 @@
+.Eligible-outer{
+    display: flex;
+    min-height: 87vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center ;
+}
+.Eligible-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Eligible-footer{
+    width:90%;
+}

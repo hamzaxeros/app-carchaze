@@ -1,0 +1,19 @@
+.IdentifyVehicle-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.IdentifyVehicle-content{
+    width: 100%;
+}
+.IdentifyVehicle-small_text{
+    font-size: small;
+    opacity: .6;
+    margin: 16px;
+}
+
+.IdentifyVehicle-footer{
+    width: 90%;
+}

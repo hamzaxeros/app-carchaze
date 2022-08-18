@@ -1,0 +1,19 @@
+.DeleteCustomFeature-outer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    min-height: 87vh;
+}
+.DeleteCustomFeature-small_text{
+    opacity: .6;
+    margin-left: 12px;
+    margin-bottom: 16px;
+}
+.DeleteCustomFeature-small_info_text{
+    opacity: .6;
+    margin: 8px;
+}
+.DeleteCustomFeature-footer{
+    width: 90%;
+}

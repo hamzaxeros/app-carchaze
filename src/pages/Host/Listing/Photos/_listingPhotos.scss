@@ -1,0 +1,15 @@
+.ListingPhotos-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+
+}
+.ListingPhotos-photo{
+    height: 300px;
+    background-color: rgb(189, 189, 189);
+}
+.ListingPhotos-footer{
+    width: 90%;
+}

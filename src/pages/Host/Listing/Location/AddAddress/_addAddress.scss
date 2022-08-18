@@ -1,0 +1,18 @@
+.AddAddress-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.AddAddress-small_text{
+    opacity: .6;
+    font-size: small;
+    margin: 16px;
+}
+.AddAddress-content{
+    width: 100%;
+}
+.AddAddress-footer{
+    width: 90%;
+}
