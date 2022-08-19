@@ -10,13 +10,14 @@
  */
 
 import React from "react"
-import {FaFlagUsa} from 'react-icons/fa'
+import {FaFlagUsa} from 'react-icons/fa';
 
 /**
  * Input Component
  * @param {string} placeholder - Placeholder for Input 
  * @param {string} label - Top label for Input
  * @param {Object} style - Css style for Input tag
+ * @param {Boolean} iconNone - To Hide Icon of the input set as true
  */
 const Input = (props) => {
 
@@ -24,8 +25,8 @@ const Input = (props) => {
     <React.Fragment>
       <div class="Input_wrapper">
         <input style={props.style} className="Input" id={`Input-${props.placeholder}`} placeholder={props.placeholder}/>
-        <label data-content={props.label} for={`Input-${props.placeholder}`}  className="Input_lable"></label>
-        <label for={`Input-${props.placeholder}`} className="Input_icon"><FaFlagUsa /></label>
+        {(props.label)?<label data-content={props.label} for={`Input-${props.placeholder}`}  className="Input_lable"></label>:''}
+        {(props.iconNone)?"":<label for={`Input-${props.placeholder}`} className="Input_icon">{(props.icon)?(props.icon):<FaFlagUsa/>}</label>}
       </div>
     </React.Fragment>
   )

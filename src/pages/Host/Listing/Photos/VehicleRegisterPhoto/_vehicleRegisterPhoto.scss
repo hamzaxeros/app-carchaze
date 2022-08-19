@@ -1,0 +1,38 @@
+.VehicleRegisterPhoto-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.VehicleRegisterPhoto-add_photo{
+    color: red;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 2px;
+}
+.VehicleRegisterPhoto-photo_outer{
+    text-align: center;
+    small{
+        font-size: small;
+    }
+}
+.VehicleRegisterPhoto-photo{
+    background-color: rgb(237, 237, 237);
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    border-radius: 2px;
+}
+.VehicleRegisterPhoto-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.VehicleRegisterPhoto-footer{
+    width: 90%;
+}

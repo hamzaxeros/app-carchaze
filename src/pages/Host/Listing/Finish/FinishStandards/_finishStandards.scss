@@ -1,0 +1,24 @@
+.FinishStandards-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FinishStandards-img{
+    min-height: 200px;
+    max-height: 400px;
+}
+.FinishStandards-list_outer{
+    list-style-type: disc;
+    margin: 44px 16px;
+    li{
+        display: list-item;
+    }
+}
+
+.FinishStandards-terms{
+    color: red;
+}
+.FinishStandards-footer{
+    width: 100%;
+}

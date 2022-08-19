@@ -1,0 +1,17 @@
+.FinishDescription-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 87vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.FinishDescription-info_text_outer{
+    padding: 16px;
+    height: 300px;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    opacity: .6;
+}
+.FinishDescription-footer{
+    width: 90%;
+}

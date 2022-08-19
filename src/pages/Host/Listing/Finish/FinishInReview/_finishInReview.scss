@@ -1,0 +1,16 @@
+.FinishInReview-outer{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.FinishInReview-img_outer{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 120px;
+    }
+}
