@@ -1,0 +1,20 @@
+.HostExactLocation-map{
+    height: 650px;
+    width: 100vw;
+    background-color: rgb(217, 217, 217);
+}
+.HostExactLocation-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HostExactLocation-footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    min-height: 150px;
+    small{
+        font-size: smaller;
+    }
+}

@@ -16,15 +16,18 @@ import {FaFlagUsa} from 'react-icons/fa';
  * Input Component
  * @param {string} placeholder - Placeholder for Input 
  * @param {string} label - Top label for Input
- * @param {Object} style - Css style for Input tag
- * @param {Boolean} iconNone - To Hide Icon of the input set as true
+ * @param {Object} [style] - Css style for Input tag
+ * @param {Boolean} [iconNone] - To Hide Icon of the input set as true
+ * @param {Object} icon - Share Html Icon to change icon in input
+ * @param {string} [type] - Set the type of the input
+ * 
  */
 const Input = (props) => {
 
   return (
     <React.Fragment>
       <div class="Input_wrapper">
-        <input style={props.style} className="Input" id={`Input-${props.placeholder}`} placeholder={props.placeholder}/>
+        <input type={(props.type)?(props.type):'text'} style={props.style} className="Input" id={`Input-${props.placeholder}`} placeholder={props.placeholder}/>
         {(props.label)?<label data-content={props.label} for={`Input-${props.placeholder}`}  className="Input_lable"></label>:''}
         {(props.iconNone)?"":<label for={`Input-${props.placeholder}`} className="Input_icon">{(props.icon)?(props.icon):<FaFlagUsa/>}</label>}
       </div>

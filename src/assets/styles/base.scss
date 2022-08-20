@@ -903,7 +903,9 @@ img {
 	-webkit-user-drag: none;
 	pointer-events: none;
 }
-
+.opacity-6{
+	opacity: .6;
+}
 .space-16{
 	height: 16px;
 }
@@ -975,3 +977,21 @@ img {
 @import "../../pages/Host/Listing/Finish/FinishDescription/finishDescription";
 @import "../../pages/Host/Listing/Finish/FinishInReview/finishInReview";
 @import "../../pages/Host/Listing/Finish/FinishStandards/finishStandards";
+@import "../../pages/Host/Manager/Basic/InReviewListing/inReviewListing";
+@import "../../pages/Host/Manager/Basic/VehicleDetails/vehicleDetails";
+@import "../../pages/Host/Manager/Basic/VehiclePhotos/vehiclePhotos";
+@import "../../pages/Host/Manager/Basic/YourVehicle/yourVehicle";
+
+@import "../../pages/Host/Manager/Basic/CustomisePrice/customisePrice";
+@import "../../pages/Host/Manager/Basic/DailyDistance/dailyDistance";
+@import "../../pages/Host/Manager/Basic/DailyPrice/dailyPrice";
+@import "../../pages/Host/Manager/Basic/DefaultPrice/defaultPrice";
+@import "../../pages/Host/Manager/Basic/Discount/discount";
+@import "../../pages/Host/Manager/Basic/HostPricing/hostPricing";
+
+@import "../../pages/Host/Manager/Location/AddLocation/hostAddLocation";
+@import "../../pages/Host/Manager/Location/DeliveryZone/hostDeliveryZone";
+@import "../../pages/Host/Manager/Location/DeliveryLocation/deliveryLocation";
+@import "../../pages/Host/Manager/Location/ExactLocation/hostExactLocatin";
+@import "../../pages/Host/Manager/Location/PickReturnLocation/pickReturnLocation";
+@import "../../pages/Host/Manager/Location/VehicleLocation/hostVehicleLocation";

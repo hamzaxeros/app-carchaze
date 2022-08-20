@@ -1,0 +1,13 @@
+.HostDailyDistance-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 92vh;
+}
+.HostDailyDistance-red_text{
+    color: red;
+}
+.HostDailyDistance-footer{
+    width: 90%;
+}

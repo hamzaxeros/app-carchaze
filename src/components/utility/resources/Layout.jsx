@@ -51,6 +51,29 @@ import FinishDescription from "../../../pages/Host/Listing/Finish/FinishDescript
 import FinishStandards from "../../../pages/Host/Listing/Finish/FinishStandards/FinishStandards";
 import FinishInReview from "../../../pages/Host/Listing/Finish/FinishInReview/FinishInReview";
 
+// Hosting Manager
+import InReviewListing from "../../../pages/Host/Manager/Basic/InReviewListing/InReviewListing";
+import VehicleDetails from "../../../pages/Host/Manager/Basic/VehicleDetails/VehicleDetails";
+import VehiclePhotos from "../../../pages/Host/Manager/Basic/VehiclePhotos/VehiclePhotos";
+import YourVehicle from "../../../pages/Host/Manager/Basic/YourVehicle/YourVehicle";
+
+
+// Host Manager Basic Details
+import DailyPrice from "../../../pages/Host/Manager/Basic/DailyPrice/DailyPrice";
+import Discount from "../../../pages/Host/Manager/Basic/Discount/Discount";
+import HostPricing from "../../../pages/Host/Manager/Basic/HostPricing/HostPricing";
+import DefaultPrice from "../../../pages/Host/Manager/Basic/DefaultPrice/DefaultPrice";
+import CustomisePrice from "../../../pages/Host/Manager/Basic/CustomisePrice/CustomisePrice";
+import DailyDistance from "../../../pages/Host/Manager/Basic/DailyDistance/DailyDistance";
+
+// Host Manager Locations
+import HostAddLocation from "../../../pages/Host/Manager/Location/AddLocation/HostAddLocation";
+import DeliveryLocation from "../../../pages/Host/Manager/Location/DeliveryLocation/DeliveryLocation";
+import HostDeliveryZone from "../../../pages/Host/Manager/Location/DeliveryZone/HostDeliveryZone";
+import HostExactLocation from "../../../pages/Host/Manager/Location/ExactLocation/HostExactLocation";
+import PickReturnLocation from "../../../pages/Host/Manager/Location/PickReturnLocation/PickReturnLocation";
+import HostVehicleLocation from "../../../pages/Host/Manager/Location/VehicleLocation/HostVehicleLocation";
+
 
 
 
@@ -64,8 +87,23 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-
-			<FinishInReview />
+			<HostDeliveryZone />
+			{/* <HostAddLocation /> */}
+			{/* <HostExactLocation /> */}
+			{/* <DeliveryLocation /> */}
+			{/* <HostVehicleLocation /> */}
+			{/* <HostAddLocation /> */}
+			{/* <DailyDistance /> */}
+			{/* <CustomisePrice /> */}
+			{/* <DefaultPrice /> */}
+			{/* <HostPricing /> */}
+			{/* <Discount /> */}
+			{/* <DailyPrice /> */}
+			{/* <VehiclePhotos /> */}
+			{/* <VehicleDetails /> */}
+			{/* <YourVehicle /> */}
+			{/* <InReviewListing/> */}
+			{/* <FinishInReview /> */}
 			{/* <FinishStandards /> */}
 			{/* <FinishDescription /> */}
 			{/* <VehicleRegisterPhoto /> */}

@@ -1,0 +1,26 @@
+.InReviewListing-lists_outer{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+}
+.InReviewListing-list{
+    margin-left: 8px;
+    padding: 8px;
+    display: flex;
+    border-bottom: 1px solid #00000040;
+}
+.InReviewListing-label{
+    position: absolute;
+    background: white;
+    margin: 18px 6px;
+    padding: 1px;
+}
+.InReviewListing-list_car{
+    height: 25vw;
+    padding: 6px;
+}
+.InReviewListing-list_details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 6px;
+}

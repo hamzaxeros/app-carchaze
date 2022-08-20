@@ -1,0 +1,15 @@
+.Discount-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+}
+.Discount-small_text{
+    text-align: end;
+    margin: 16px;
+    opacity: .6;
+}
+.Discount-footer{
+    width: 90%;
+}

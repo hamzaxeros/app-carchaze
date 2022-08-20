@@ -1,0 +1,26 @@
+
+.VehiclePhotos-main_outer{
+    border-radius: 12px;
+    margin: 16px auto;
+    height: 300px;
+    width: 90%;
+    background-color: rgb(207, 207, 207);
+}
+.VehiclePhotos-photos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 90%;
+}
+.VehiclePhotos-photo{
+    height: 120px;
+    margin: 6px;
+    border-radius: 8px;
+    width: 150px;
+    background-color: rgb(201, 201, 201);
+}
+.VehiclePhotos-footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

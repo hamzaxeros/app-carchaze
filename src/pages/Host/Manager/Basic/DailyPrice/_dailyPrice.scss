@@ -1,0 +1,15 @@
+.DailyPrice-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+}
+.DailyPrice-small_text{
+    text-align: end;
+    margin: 16px;
+    opacity: .6;
+}
+.DailyPrice-footer{
+    width: 90%;
+}

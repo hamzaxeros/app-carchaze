@@ -1,0 +1,16 @@
+.HostDefaultPrice-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 87vh;
+    align-items: center;
+}
+.HostDefaultPrice-small_text{
+    opacity: .6;
+    text-align: end;
+    font-size: small;
+    margin: 12px;
+}
+.HostDefaultPrice-footer{
+    width: 90%;
+}
