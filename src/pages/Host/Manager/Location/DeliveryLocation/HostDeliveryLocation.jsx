@@ -15,7 +15,7 @@ import Button from "../../../../../components/public/resources/Button/Button";
 import Input from "../../../../../components/public/resources/Input/Input";
 import { BsSearch } from "react-icons/bs";
 
-const DeliveryLocation = (props) => {
+const HostDeliveryLocation = (props) => {
 
 
   return (
@@ -31,4 +31,4 @@ const DeliveryLocation = (props) => {
   )
 }
 
-export default DeliveryLocation;
+export default HostDeliveryLocation;

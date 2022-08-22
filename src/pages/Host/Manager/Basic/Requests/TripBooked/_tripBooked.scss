@@ -1,0 +1,16 @@
+.TripBooked-outer{
+    display: flex;
+    min-height: 87vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center ;
+}
+.TripBooked-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TripBooked-footer{
+    width:100%;
+}

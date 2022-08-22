@@ -1,0 +1,16 @@
+.TripPending-outer{
+    display: flex;
+    min-height: 87vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center ;
+}
+.TripPending-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.TripPending-footer{
+    width:100%;
+}

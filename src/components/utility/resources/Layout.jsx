@@ -68,11 +68,28 @@ import DailyDistance from "../../../pages/Host/Manager/Basic/DailyDistance/Daily
 
 // Host Manager Locations
 import HostAddLocation from "../../../pages/Host/Manager/Location/AddLocation/HostAddLocation";
-import DeliveryLocation from "../../../pages/Host/Manager/Location/DeliveryLocation/DeliveryLocation";
+import HostDeliveryLocation from "../../../pages/Host/Manager/Location/DeliveryLocation/HostDeliveryLocation";
 import HostDeliveryZone from "../../../pages/Host/Manager/Location/DeliveryZone/HostDeliveryZone";
 import HostExactLocation from "../../../pages/Host/Manager/Location/ExactLocation/HostExactLocation";
 import PickReturnLocation from "../../../pages/Host/Manager/Location/PickReturnLocation/PickReturnLocation";
 import HostVehicleLocation from "../../../pages/Host/Manager/Location/VehicleLocation/HostVehicleLocation";
+
+
+// Host Manager Basic Requests & Responses
+import PayDues from "../../../pages/Host/Manager/Basic/Requests/PayDues/PayDues";
+import TripBooked from "../../../pages/Host/Manager/Basic/Requests/TripBooked/TripBooked";
+import TripPending from "../../../pages/Host/Manager/Basic/Requests/TripPending/TripPending";
+
+// Host Manager Transactions
+import HostTransaction from "../../../pages/Host/Manager/Basic/Transactions/HostTransaction";
+
+// Host Manager Reviews
+import HostReviews from "../../../pages/Host/Manager/Basic/Reviews/HostReviews";
+
+// Host Trip Setting
+import HostTripSetting from "../../../pages/Host/Manager/Basic/TripSetting/HostTripSetting";
+import HostVehicleProtection from "../../../pages/Host/Manager/Basic/VehicleProtection/HostVehicleProtection";
+import HostSelectPlan from "../../../pages/Host/Manager/Basic/SelectPlan/HostSelectPlan";
 
 
 
@@ -87,10 +104,18 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-			<HostDeliveryZone />
+			<HostSelectPlan />
+			{/* <HostVehicleProtection /> */}
+			{/* <HostTripSetting /> */}
+			{/* <HostReviews /> */}
+			{/* <HostTransaction /> */}
+			{/* <PayDues /> */}
+			{/* <TripPending /> */}
+			{/* <TripBooked /> */}
+			{/* <HostDeliveryZone /> */}
 			{/* <HostAddLocation /> */}
 			{/* <HostExactLocation /> */}
-			{/* <DeliveryLocation /> */}
+			{/* <HostDeliveryLocation /> */}
 			{/* <HostVehicleLocation /> */}
 			{/* <HostAddLocation /> */}
 			{/* <DailyDistance /> */}

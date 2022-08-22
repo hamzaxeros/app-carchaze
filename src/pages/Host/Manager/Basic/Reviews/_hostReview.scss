@@ -1,0 +1,18 @@
+.HostReviews-lists{
+    margin-top: 16px;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+}
+.HostReviews-list{
+    display: flex;
+
+}
+.HostReviews-list_text_outer{
+    padding: 6px;
+}
+.HostReviews-filter{
+    display: flex;
+    div{
+        width: 100%;
+    }
+}

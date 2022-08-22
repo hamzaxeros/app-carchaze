@@ -937,6 +937,7 @@ img {
 	margin-right: 16px;
 }
 
+
 @import "./variables";
 @import "./font";
 
@@ -991,7 +992,17 @@ img {
 
 @import "../../pages/Host/Manager/Location/AddLocation/hostAddLocation";
 @import "../../pages/Host/Manager/Location/DeliveryZone/hostDeliveryZone";
-@import "../../pages/Host/Manager/Location/DeliveryLocation/deliveryLocation";
+@import "../../pages/Host/Manager/Location/DeliveryLocation/hostDeliveryLocation";
 @import "../../pages/Host/Manager/Location/ExactLocation/hostExactLocatin";
 @import "../../pages/Host/Manager/Location/PickReturnLocation/pickReturnLocation";
 @import "../../pages/Host/Manager/Location/VehicleLocation/hostVehicleLocation";
+
+@import "../../pages/Host/Manager/Basic/Requests/TripBooked/tripBooked";
+@import "../../pages/Host/Manager/Basic/Requests/PayDues/payDues";
+@import "../../pages/Host/Manager/Basic/Requests/TripPending/tripPending";
+
+@import "../../pages/Host/Manager/Basic/Transactions/hostTransaction";
+@import "../../pages/Host/Manager/Basic/Reviews/hostReview";
+@import "../../pages/Host/Manager/Basic/TripSetting/hostTripSetting";
+@import "../../pages/Host/Manager/Basic/VehicleProtection/hostVehicleProtection";
+@import "../../pages/Host/Manager/Basic/SelectPlan/hostSelectPlan";
