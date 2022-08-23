@@ -1,0 +1,21 @@
+.HostDeliverdYou-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 87vh;
+
+}
+.HostDeliverdYou-content{
+    width: 100%;
+}
+.HostDeliverdYou-footer{
+    width: 90%;
+}
+.HostDeliverdYou-input{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    padding: 12px;
+    background-color: #edededab;
+    color: black;
+}

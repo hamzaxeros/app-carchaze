@@ -1,0 +1,20 @@
+.HostTripReviews-lists{
+    margin-top: 16px;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+}
+.HostTripReviews-list{
+    display: flex;
+    border-bottom: 1px solid #00000040;
+    
+
+}
+.HostTripReviews-list_text_outer{
+    padding: 6px;
+}
+.HostTripReviews-filter{
+    display: flex;
+    div{
+        width: 100%;
+    }
+}

@@ -20,6 +20,7 @@ import {IoIosArrowForward} from "react-icons/io"
  * @param {boolean} rightArrowNone - Left Arrow of the list to disable 
  * @param {Object} [style] - Css style
  * @param {string} [rightOpacity] - opacity of right side text
+ * @param {Object} [rightTextStyle]
  */
 const List = (props) => {
   

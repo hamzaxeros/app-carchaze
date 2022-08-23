@@ -1,0 +1,19 @@
+.HostTripDates-outer{
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 95vh;
+    flex-direction: column;
+    
+}   
+.HostTripDates-content{
+    width: 100%;
+}
+.HostTripDates-footer{
+    padding: 16px;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+
+}

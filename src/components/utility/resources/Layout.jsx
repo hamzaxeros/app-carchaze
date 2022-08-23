@@ -4,6 +4,7 @@ import React from "react";
 // ================ Import Components ====================
 import AccountList from "../../public/resources/List/List";
 import ListWithIcons from "../../public/resources/ListWithIcons/ListWithIcons";
+import RoundButton from "../../public/resources/RoundButton/RoundButton";
 
 // ================ Import Pages ==========================
 // import AuthMobile from "../../../pages/Auth/AuthMobile";
@@ -91,6 +92,18 @@ import HostTripSetting from "../../../pages/Host/Manager/Basic/TripSetting/HostT
 import HostVehicleProtection from "../../../pages/Host/Manager/Basic/VehicleProtection/HostVehicleProtection";
 import HostSelectPlan from "../../../pages/Host/Manager/Basic/SelectPlan/HostSelectPlan";
 
+// Host trip locations, Delivery and report listing
+import HostTripDates from "../../../pages/Host/Manager/Basic/HostTripDates/HostTripDates";
+import HostPickLocation from "../../../pages/Host/Manager/Basic/HostPickLocation/HostPickLocation";
+import HostDeliveredYou from "../../../pages/Host/Manager/Basic/HostDeliveredYou/HostDeliveredYou";
+import ReportListing from "../../../pages/Host/Manager/Basic/ReportListing/ReportListing";
+
+// Host listing features, profile and reviws
+import HostFeaturesList from "../../../pages/Host/Manager/Basic/HostFeaturesList/HostFeaturesList";
+import HostProfile from "../../../pages/Host/Manager/Basic/HostProfile/HostProfile";
+import HostTripReviews from "../../../pages/Host/Manager/Basic/HostTripReviews/HostTripReviews";
+
+
 
 
 
@@ -104,7 +117,15 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-			<HostSelectPlan />
+
+			<HostProfile />
+			{/* <HostTripReviews /> */}
+			{/* <HostFeaturesList /> */}
+			{/* <ReportListing /> */}
+			{/* <HostDeliveredYou /> */}
+			{/* <HostPickLocation /> */}
+			{/* <HostTripDates /> */}
+			{/* <HostSelectPlan /> */}
 			{/* <HostVehicleProtection /> */}
 			{/* <HostTripSetting /> */}
 			{/* <HostReviews /> */}

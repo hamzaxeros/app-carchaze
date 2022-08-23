@@ -1,0 +1,17 @@
+.ReportListing-outer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 87vh;
+    
+}
+.ReportListing-textArea{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    padding: 16px;
+    textarea{
+        min-width: 90vw;
+        border: none;
+        
+    }
+}
