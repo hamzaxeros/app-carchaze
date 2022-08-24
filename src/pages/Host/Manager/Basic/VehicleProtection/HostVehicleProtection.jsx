@@ -40,7 +40,7 @@ const HostVehicleProtection = (props) => {
         <List leftText={"Vehicle protection for hosts"} />
 
         <p className="HostVehicleProtection-small_text mt-44">MORE OPTIONS</p>
-        <List leftText={[<p>Decline Protection</p>,<p style={{"opacity":'.6',"fontSize":'small'}}>Require your own commercial Insurance. Earn 90% of the trip price</p>]} />
+        <List leftText={[<p>Decline Protection</p>,<p style={{"opacity":'.6',"fontSize":'small',"padding":'6px 0px'}}>Require your own commercial Insurance. Earn 90% of the trip price</p>]} />
 
       </div>
     </React.Fragment>

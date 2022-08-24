@@ -25,7 +25,7 @@ import Button from "../../../components/public/resources/Button/Button";
              <div>
                   <p className="Auth__EnterPhone-top_text">Please Provide phone number registered in your name to connect you about trip and to connect host with driver</p>
                   <div className="Auth__EnterPhone-input_number"><Input label={"Phone Number"} placeholder={"Enter Phone Number"}/></div>
-                  <p className="Auth__EnterPhone-small_text">By entering your phone number may recieve an SMS for varificataion, Messesge and data rate may applay</p>
+                  <p className="Auth__EnterPhone-small_text opacity-6 mt-16">By entering your phone number may recieve an SMS for varificataion, Messesge and data rate may applay</p>
              </div>
 
              <div className="Auth__EnterPhone-footer">

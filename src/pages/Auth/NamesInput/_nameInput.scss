@@ -18,11 +18,12 @@
 }
 .Auth__NameInput-small_text{
     font-size: small;
+    opacity: .6;
 }
 .Auth__NameInput-btn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }

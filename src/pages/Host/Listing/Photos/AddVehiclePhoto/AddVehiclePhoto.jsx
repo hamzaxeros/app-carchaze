@@ -17,7 +17,7 @@
  
    return (
      <React.Fragment>
-       <div className="AddPhoto-outer">
+       <div className="AddPhoto-outer mv-44">
          <div className="AddPhoto-content">
            <div className="AddPhoto-photo"></div>
          </div>

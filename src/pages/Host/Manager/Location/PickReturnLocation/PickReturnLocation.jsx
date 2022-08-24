@@ -23,21 +23,21 @@ const PickReturnLocation = (props) => {
         <p className="HostPickReturnLocation-small_text">
           VEHICLE LOCATION
         </p>
-        <List leftText={[<p>18-26, Chauncy street, Cambridge, GB MA 02138</p>,<p style={{"opacity":'.6',"fontSize":'small'}}>No delivery fee at home location</p>]}
+        <List rightTextStyle={{"opacity":'1'}} leftText={[<p>18-26, Chauncy street, Cambridge, GB MA 02138</p>,<p style={{"opacity":'.6',"fontSize":'small',"padding":'6px 0px'}}>No delivery fee at home location</p>]}
          rightText={[<p style={{"color":'red',"fontSize":'large',"padding":'4px'}}>Edit</p>]} />
 
         <p className="HostPickReturnLocation-small_text mt-44">DELIVERY LOCATIONS</p>
-        <List leftText={[<p>Islamabad International Airport</p>,<p style={{"color":'red',"fontSize":'small'}}>Rs. 500</p>]} 
+        <List rightTextStyle={{"opacity":'1'}} leftText={[<p>Islamabad International Airport</p>,<p style={{"color":'red',"fontSize":'small',"padding":'6px 0px'}}>Rs. 500</p>]} 
         rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
-        <List style={{"borderTop":'none'}} leftText={[<p>Add a delivery location by browsing on the map.</p>]} 
+        <List rightTextStyle={{"opacity":'1'}} style={{"borderTop":'none'}} leftText={[<p>Add a delivery location by browsing on the map.</p>]} 
         rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Add</p>]} />
         
         <p className="HostPickReturnLocation-small_text mt-44">DRIVER LOCATION</p>
-        <List leftText={[<p>Deliver vehicle with in a zone and earn delivery fees</p>,<p style={{"fontSize":'small',"opacity":'.6'}}>Rs. 500 &nbsp; &nbsp; Up to 15 miles</p>]} 
+        <List rightTextStyle={{"opacity":'1'}} leftText={[<p>Deliver vehicle with in a zone and earn delivery fees</p>,<p style={{"fontSize":'small',"opacity":'.6',"padding":'6px 0px'}}>Rs. 500 &nbsp; &nbsp; Up to 15 miles</p>]} 
         rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
 
         <p className="HostPickReturnLocation-small_text mt-44">DELIVERY DISCOUNT</p>
-        <List leftText={[<p>Attract more Drivers by offering free delivery for longer trips</p>,<p style={{"fontSize":'small',"opacity":'.6'}}>Do not offer &nbsp; &nbsp; Trip length</p>]} 
+        <List rightTextStyle={{"opacity":'1'}} leftText={[<p>Attract more Drivers by offering free delivery for longer trips</p>,<p style={{"fontSize":'small',"opacity":'.6',"padding":'6px 0px'}}>Do not offer &nbsp; &nbsp; Trip length</p>]} 
         rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
 
       </div>

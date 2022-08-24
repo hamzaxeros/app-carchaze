@@ -18,7 +18,7 @@ const HostVehicleLocation = (props) => {
 
   return (
     <React.Fragment>
-      <div className="HostVehicleLocation-outer">
+      <div className="HostVehicleLocation-outer mv-44">
         <div className="HostVehicleLocation-content">
           <div className="HostVehicleLocation-location"></div>
           <p className="HostVehicleLocation-small_text mt-44 mh-16">
@@ -28,16 +28,18 @@ const HostVehicleLocation = (props) => {
           rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red',"padding":'4px'}}>Edit</p>]} />
 
           <p className="HostVehicleLocation-small_text mt-44">
-              PARKING DETAILS
+              PARKING DETAILS (Optional)
           </p>
           <div className="HostVehicleLocation-p_details_outer">
-            <p className="HostVehicleLocation-p_details mh-16">
-              Tell your drivers about parking options in your neightbourhood Share tips for finding street locations, or let them know if you offer on-site parking.
-            </p>
+            <textarea rows={10} col={30} className="HostVehicleLocation-p_details mh-16" placeholder="Tell your drivers about parking options in your neightbourhood Share tips for finding street locations, or let them know if you offer on-site parking.">
+            </textarea>
           </div>
         </div>
+        <p className="HostVehicleLocation-text_max">
+          5000 characters max
+        </p>
 
-        <div className="HostVehicleLocation-footer">
+        <div className="HostVehicleLocation-footer mt-44">
             <Button title={"Save"} />
         </div>
 

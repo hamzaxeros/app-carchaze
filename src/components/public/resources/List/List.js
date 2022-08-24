@@ -10,7 +10,8 @@
  */
 
 import React from "react"
-import {IoIosArrowForward} from "react-icons/io"
+import {IoIosArrowForward} from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 /**
@@ -18,9 +19,10 @@ import {IoIosArrowForward} from "react-icons/io"
  * @param {string} rightText - Righ side text of the list 
  * @param {string} leftText - Left side text of the list
  * @param {boolean} rightArrowNone - Left Arrow of the list to disable 
- * @param {Object} [style] - Css style
+ * @param {Object} [style] - Style overall list
  * @param {string} [rightOpacity] - opacity of right side text
- * @param {Object} [rightTextStyle]
+ * @param {Object} [rightTextStyle] - Style the right side and right text of the list
+ * @param {boolean} [ArrowDown] - set as true if you want to down the arrow
  */
 const List = (props) => {
   
@@ -35,7 +37,10 @@ const List = (props) => {
               {props.rightText}
             </div>
             <div className="List-right_arrow" >
-              {!(props.rightArrowNone)?<IoIosArrowForward/>:''}
+              {!(props.rightArrowNone)?
+                (props.ArrowDown)?<IoIosArrowDown fontSize={28} />:<IoIosArrowForward fontSize={28}/>
+                
+              :''}
             </div>
           </div>
       </div>

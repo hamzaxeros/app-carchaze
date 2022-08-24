@@ -27,17 +27,17 @@ const HostPricing = (props) => {
 
         <div className="HostPricing-lists mt-44">
           <div className="HostPricing-list">
-            <List style={{"borderTop":'none'}} leftText={[<p>Default Price</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>Rs. 5000</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
+            <List style={{"borderTop":'none'}} rightTextStyle={{"opacity":'1'}} leftText={[<p>Default Price</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>Rs. 5000</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
           </div>
           <div className="HostPricing-list">
-            <List style={{"borderTop":'none'}} leftText={[<p>Discount</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>15% Weekly, 25% monthly</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
+            <List style={{"borderTop":'none'}} rightTextStyle={{"opacity":'1'}} leftText={[<p>Discount</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>15% Weekly, 25% monthly</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
           </div>
           <div className="HostPricing-list">
-            <List style={{"borderTop":'none',"borderBottom":'none'}} leftText={[<p>Custom Prices</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>Price for specific days</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
+            <List style={{"borderTop":'none',"borderBottom":'none'}} rightTextStyle={{"opacity":'1'}} leftText={[<p>Custom Prices</p>,<small style={{"opacity":'.6',"margin":'4px 0px'}}>Price for specific days</small>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>Edit</p>]} />
           </div>
         </div>
         <div className="mt-44">
-          <List leftText={[<p>How much will I earn</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>View</p>]} />
+          <List leftText={[<p>How much will I earn</p>]} rightTextStyle={{"opacity":'1'}}  rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'red'}}>View</p>]} />
         </div>
       </div>
     </React.Fragment>

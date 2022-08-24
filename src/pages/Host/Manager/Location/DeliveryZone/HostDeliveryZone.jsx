@@ -28,7 +28,7 @@ const HostDeliveryZone = (props) => {
           </div>
           <p className="HostDeliveryZone-small_text mh-16 mt-44">DELIVERY FEES</p>
           <div className="HostDeliveryZone-range">
-            <p className="HostDeliveryZone-price">Rs. 5000</p>
+            <p className="HostDeliveryZone-price opacity-6">Rs. 5000</p>
             <p className="opacity-6">Delivery fee included pickup & return</p>
             <Input type={"range"} iconNone={true} />
 
@@ -36,7 +36,7 @@ const HostDeliveryZone = (props) => {
           <p className="HostDeliveryZone-small_text mt-44 mh-16">
             DELIVERY WITH ZONE DISTANCE
           </p>
-          <List leftText={"Distance"} rightText={"Up to 15 miles"} />
+          <List ArrowDown={true} leftText={"Distance"} rightText={"Up to 15 miles"} />
         </div>
         <div className="HostDeliveryZone-footer">
           <Button title={"Save"} />

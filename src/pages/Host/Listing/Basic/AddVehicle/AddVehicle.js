@@ -21,9 +21,9 @@ const AddVehicle = (props) => {
       <div className="AddVehicle-outer">
         <div className="AddVehicle-content">
           <p className="AddVehicle-small_text">WHERE YOUR CAR LOCATED? </p>
-          <List leftText={"Enter address"} />
+          <List leftText={"Enter address"} style={{"opacity":'.6'}} />
           <p className="AddVehicle-small_text mt-44">WHAT VEHICLE DO YOU HAVE?</p>
-          <List leftText={"Honda Civic 2018"} style={{"borderBottom":'none'}} rightText={"Edit"} />
+          <List leftText={"Honda Civic 2018"} style={{"borderBottom":'none'}} rightTextStyle={{"color":'red',"opacity":'1 '}} rightText={"Edit"} />
           <List leftText={"Odometer"} style={{"borderBottom":'none'}} rightText={"Select"} />
           <List leftText={"Transmission"} style={{"borderBottom":'none'}} rightText={"Select"} />
           <List leftText={"Fuel type"} rightText={"Select"} />

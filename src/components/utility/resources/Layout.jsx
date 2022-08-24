@@ -138,7 +138,7 @@ const Layout = (props) => {
 			{/* <HostExactLocation /> */}
 			{/* <HostDeliveryLocation /> */}
 			{/* <HostVehicleLocation /> */}
-			{/* <HostAddLocation /> */}
+			{/* <PickReturnLocation /> */}
 			{/* <DailyDistance /> */}
 			{/* <CustomisePrice /> */}
 			{/* <DefaultPrice /> */}
@@ -155,8 +155,8 @@ const Layout = (props) => {
 			{/* <VehicleRegisterPhoto /> */}
 			{/* <AddVehiclePhoto /> */}
 			{/* <DeleteCustomFeature /> */}
-			{/* <AddNewFeatures /> */}
 			{/* <FeaturesList /> */}
+			{/* <AddNewFeatures /> */}
 			{/* <NotEligible /> */}
 			{/* <Eligible /> */}
 			{/* <ExactLocation /> */}
@@ -169,15 +169,14 @@ const Layout = (props) => {
 			{/* <Facebook />	 */}
 			{/* <TakeSelfie /> */}
 			{/* <Membership /> */}
-			{/* <ListWithIcons /> */}
-			{/* <Profile /> */}
 			{/* <AccountManager /> */}
+			{/* <Profile /> */}
 			{/* <Account/> */}
-			{/* <AuthMobile /> */}
+			{/* <NameInput /> */}
 			{/* <AuthPhoneNumber/> */}
 			{/* <Otp /> */}
 			{/* <AccountList leftText={"Manage Account"} rightText={"+923487166954"} leftArrow={true} /> */}
-			{/* <NameInput /> */}
+			{/* <AuthMobile /> */}
 			{/* <PublicRoutes /> */}
 			{/* <Home></Home> */}
 

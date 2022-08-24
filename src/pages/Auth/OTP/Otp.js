@@ -25,11 +25,11 @@ const Otp = (props) => {
         </div>
 
         <div className="Auth__Otp-resend_btn">
-            <Button style={{"background":'transparent',"color":'black'}} title={"Resend Code"} />
+            <Button style={{"background":'transparent',"color":'red'}} title={"Resend Code"} />
         </div>
 
         <div className="Auth__Otp-call_btn">
-            <Button style={{"background":'transparent',"color":'black'}} title={"Call Me"} />
+            <Button style={{"background":'transparent',"color":'red'}} title={"Call Me"} />
         </div>
 
 

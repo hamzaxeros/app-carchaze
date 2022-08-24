@@ -34,8 +34,8 @@ const HostTransaction = (props) => {
         </div>
 
         <div className="HostTransaction-filter mt-44">
-          <List style={{"borderRight":'1px solid #00000040'}} leftText={"All Vehicle"} />
-          <List leftText={"2021"} />
+          <List ArrowDown={true} style={{"borderRight":'1px solid #00000040'}} leftText={"All Vehicle"} />
+          <List ArrowDown={true} leftText={"2021"} />
         </div>
 
       </div>

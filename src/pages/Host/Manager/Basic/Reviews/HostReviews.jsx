@@ -21,7 +21,7 @@ const HostReviews = (props) => {
   return (
     <React.Fragment>
       <div className="HostReviews-outer mt-44">
-        <List style={{"border":'none'}} rightArrowNone={true} leftText={[<h1>Honda Civic 2019</h1>,<h2>ABC 123 - 65 Plan</h2>,<p style={{"opacity":'.6'}}>215 trips</p>]} rightText={<img style={{"height":'70px'}} src={DemoCar} alt="Car Image" />}  />
+        <List style={{"border":'none'}} rightArrowNone={true} leftText={[<h1>Honda Civic 2019</h1>,<h2 style={{"padding":'6px 0px'}}>ABC 123 - 65 Plan</h2>,<p style={{"opacity":'.6'}}>215 trips</p>]} rightText={<img style={{"height":'70px'}} src={DemoCar} alt="Car Image" />}  />
         
 
         <div className="mt-16 mh-16">
@@ -69,10 +69,10 @@ const HostReviews = (props) => {
         </div>
 
         <div className="HostReviews-footer mt-44">
-            <List  leftText={"Transaction History"} style={{"borderBottom":'none'}} />
+            <List  leftText={"Transaction History"} style={{"borderBottom":'none'}} /> 
             <div className="HostReviews-filter">
-                <List style={{"borderRight":'1px solid #00000040'}} leftText={"Civic 2019"} />
-                <List leftText={"2021"} />
+                <List ArrowDown={true} style={{"borderRight":'1px solid #00000040'}} leftText={"Civic 2019"} />
+                <List ArrowDown={true} leftText={"2021"} />
             </div>
         </div>
       

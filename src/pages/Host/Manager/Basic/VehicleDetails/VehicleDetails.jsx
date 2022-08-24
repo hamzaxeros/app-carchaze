@@ -33,42 +33,43 @@ const VehicleDetails = (props) => {
             <List style={{"borderTop":'none'}} leftText={"Chassis number"} rightArrowNone={true} rightText={"NZE81234567"} />
           </div>
           <div className="VehicleDetails-list">  
-            <List style={{"borderTop":'none'}} leftText={"Registered at"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"Registered at"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"Token paid upto"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"Token paid upto"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"Body color"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"Body color"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"No. of doors"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"No. of doors"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"No. of seats"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"No. of seats"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"Vehicle type"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"Vehicle type"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none'}} leftText={"Transmission"}  rightText={"Select"} />
+            <List style={{"borderTop":'none'}} leftText={"Transmission"} ArrowDown={true}  rightText={"Select"} />
           </div>
           <div className="VehicleDetails-list">
             
-            <List style={{"borderTop":'none',"borderBottom":'none'}} leftText={"Fuel type"}  rightText={"Select"} />
+            <List style={{"borderTop":'none',"borderBottom":'none'}} leftText={"Fuel type"} ArrowDown={true}  rightText={"Select"} />
           </div>
         
         </div>
 
         <h2 className="mt-44 mh-16 mb-16">Description</h2>
         <div className="VehicleDetails-description_outer">
-          <p className="VehicleDetaisl-description">Describe your vehicle, tell user what makes your vehicle great, let user know how things work on your vehicle and be clear what is allowed and what is not allowed inside your vehicle</p>
+          <textarea name="" cols="30" rows="10" placeholder="Describe your vehicle, tell user what makes your vehicle great, let user know how things work on your vehicle and be clear what is allowed and what is not allowed inside your vehicle"></textarea>
+          {/* <p className="VehicleDetaisl-description">Describe your vehicle, tell user what makes your vehicle great, let user know how things work on your vehicle and be clear what is allowed and what is not allowed inside your vehicle</p> */}
         </div>
         <div className="VehicleDetails-footer mv-44">
           <Button title={"Save"} />

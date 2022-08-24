@@ -19,8 +19,8 @@ const HostTripDates = (props) => {
     <React.Fragment>
       <div className="HostTripDates-outer">
         <div className="HostTripDates-content">
-            <List leftText={"Start"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} style={{"borderBottom":'none'}} rightText={"Thu, Jan 28, 10:00 AM"} />        
-            <List leftText={"End"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} rightText={"Select"} />
+            <List ArrowDown={true} leftText={"Start"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} style={{"borderBottom":'none'}} rightText={"Thu, Jan 28, 10:00 AM"} />        
+            <List ArrowDown={true} leftText={"End"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} rightText={"Select"} />
         </div>
         <div className="HostTripDates-footer">
             <p>Osman is available from 7:00 AM till 8:00 PM on Thursday</p>

@@ -25,13 +25,13 @@ const Profile = (props) => {
                 <h3>Hamza Hussain</h3>
 
             </div>
-            <div className="space-44"></div>
+            <div className="mt-44"></div>
             <p className="Profile-small_heading">About Me</p>
             <div className="Profile-textArea_outer">
-                <textarea className="Profile-textArea" cols="30" rows="7"></textarea>
+                <textarea className="Profile-textArea" cols="30" rows="7" ></textarea>
             </div>
 
-            <div className="space-44"></div>
+            <div className="mt-44"></div>
 
             <p className="Profile-small_heading">ADDITIONAL INFO</p>
             <div className="space-16"></div>

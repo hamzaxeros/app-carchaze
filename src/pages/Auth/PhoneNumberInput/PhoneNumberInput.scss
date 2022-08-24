@@ -15,7 +15,7 @@
     width: 100%;
 }
 .Auth__EnterPhone-small_text{
-    font-size: smaller;
+    font-size: smalle;
 }
 .Auth__EnterPhone-terms_text{
     margin-bottom: 10px;
@@ -30,6 +30,7 @@
 }
 .Auth__EnterPhone-footer{
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;

@@ -28,10 +28,9 @@ const HostAddLocation = (props) => {
           </div>
           <p className="HostAddLocation-small_text mh-16 mt-44">DELIVERY FEES</p>
           <div className="HostAddLocation-range">
-            <p className="HostAddLocation-price">Rs. 5000</p>
+            <p className="HostAddLocation-price opacity-6">Rs. 5000</p>
             <p className="opacity-6">Delivery fee included pickup & return</p>
             <Input type={"range"} iconNone={true} />
-
           </div>
         </div>
         <div className="HostAddLocation-footer">

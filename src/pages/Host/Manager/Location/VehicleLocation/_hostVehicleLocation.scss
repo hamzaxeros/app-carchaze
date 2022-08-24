@@ -18,10 +18,21 @@
 .HostVehicleLocation-p_details_outer{
     border-top: 1px solid #00000040;
     border-bottom: 1px solid #00000040;
-    padding: 12px;
-    opacity: .6;
+    
+    textarea{
+        padding: 12px;
+        opacity: .6;
+        width: 90vw;
+        border: none;
+    }
 }
 
+.HostVehicleLocation-text_max{
+    text-align: end;
+    width: 100%;
+    padding: 16px;
+    opacity: .6 ;
+}
 .HostVehicleLocation-footer{
     width: 90%;
 }

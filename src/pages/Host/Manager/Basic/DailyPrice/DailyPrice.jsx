@@ -23,11 +23,11 @@ const DailyPrice = (props) => {
             <h1 className="mv-16 mh-16">Daily Price range</h1>
             <p className="mh-16">Set your minimum and maximum daily price, and automatic price will adapt your price within that range. Prices don't include weekly/monthly discounts.</p>
             <div className="DailyPrice-list mt-44">
-                <List leftText={"Maximum Price "} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</strong>]} rightArrowNone={true} />
+                <List leftText={"Maximum Price "} rightTextStyle={{"opacity":'1'}} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</strong>]} rightArrowNone={true} />
             </div>
             <p className="DailyPrice-small_text">Recommended: Rs. 30000</p>
             <div className="DailyPrice-list mt-44">
-                <List leftText={"Maximum Price"} style={{"borderBottom":'1px solid #00000040'}} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</strong>]} rightArrowNone={true} />
+                <List leftText={"Maximum Price"} style={{"borderBottom":'1px solid #00000040'}} rightTextStyle={{"opacity":'1'}} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</strong>]} rightArrowNone={true} />
             </div>
             <p className="DailyPrice-small_text">Recommended: Rs. 3000</p>
         </div>

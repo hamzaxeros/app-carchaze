@@ -35,14 +35,14 @@ const Account = (props) => {
             </div>
         </div>
         {/* <List leftText={["4.7", <strong style={{"color":'#e32f2f',"margin":"6px","fontSize":"20px"}}><AiFillStar/></strong>,  "(0 reviews)"]}  /> */}
-        <div className="space-44"></div>
-        <List leftText={"Membership"}  />
+        <div className="mt-44"></div>
+        <List style={{"borderBottom":'none'}} leftText={"Membership"}  />
         <List leftText={"Manage Account"} />
         {/* <div className="space-44"></div>
         <List leftText={"Favourite"} /> */}
-        <div className="space-44"></div>
+        <div className="mt-44"></div>
         <List leftText={"How it works ?"} />
-        <List leftText={"Contact support"} />
+        <List style={{"border":'none'}} leftText={"Contact support"} />
         <List leftText={"Legal"} />
 
 

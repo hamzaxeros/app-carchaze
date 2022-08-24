@@ -21,10 +21,10 @@ const DailyDistance = (props) => {
       <div className="HostDailyDistance-outer">
         <div className="HostDailyDistance-content mv-44">
           <h2 className="mh-16 mv-16">Daily distance included</h2>
-          <p className="mh-16 mv-16">Decide how far you'll allow drivers to drive the minimum distance per day. Get a 
+          <p className="mh-16 mt-16 mb-44">Decide how far you'll allow drivers to drive the minimum distance per day. Get a 
             special badge and attract more bookings by offering unlimited distance
           </p>
-          <List leftText={[<p>Kilometers per day</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>200</p>]} />
+          <List ArrowDown={true} rightTextStyle={{"opacity":'1'}} leftText={[<p>Kilometers per day</p>]} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>200</strong>]} />
 
           <h2 className="mt-44 mh-16">Additional distance fee</h2>
           <p className="mh-16 mt-16">If your driver drives farther than the distance included, they'll be charge a fee per kilometer calculated using your daily price</p>

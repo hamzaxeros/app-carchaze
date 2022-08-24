@@ -13,6 +13,7 @@ import Input from "../../../../../components/public/resources/Input/Input";
 import List from "../../../../../components/public/resources/List/List";
 import {IoPaperPlaneSharp} from "react-icons/io5";
 import {TbRotateClockwise2} from "react-icons/tb";
+import { BsSearch } from "react-icons/bs";
 
 const SearchAddAddress = (props) => {
 
@@ -21,7 +22,7 @@ const SearchAddAddress = (props) => {
     <React.Fragment>
       <div className="SearchAddAddress-outer mv-44">
         <div className="SearchAddAddress-search_outer">
-          <Input style={{"padding":'17px 40px',"border":'none'}} placeholder={'Airport, City, Hotel or address'} />
+          <Input icon={<BsSearch/>} style={{"padding":'17px 40px',"border":'none',"backgroundColor":'#dfdfdf'}} placeholder={'Airport, City, Hotel or address'} />
         </div>
         <List style={{"fontSize":"larger","borderBottom":'none'}} leftText={[<span style={{"opacity":'.6',"margin":'8px',"fontSize":'22px'}}><IoPaperPlaneSharp/></span>,"Honda Civic 2018"]} rightArrowNone={true}/>
         <List style={{"fontSize":"larger"}} leftText={[<span style={{"opacity":'.6',"margin":'8px',"fontSize":'22px'}}><TbRotateClockwise2/></span>,"Hayatabad, Peshawar"]} rightArrowNone={true}/>

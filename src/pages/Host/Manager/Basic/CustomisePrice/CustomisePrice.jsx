@@ -24,14 +24,14 @@ const CustomisePrice = (props) => {
             <p className="mh-16 mt-16">Set custom daily price for specific days.</p>
             <p className="mh-16">Prices are before any applicable discounts</p>
             <div className="mt-44 ">
-              <List leftText={[<p>Default Price</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</p>]} />
+              <List rightArrowNone={true} rightTextStyle={{"opacity":'1'}} leftText={[<p>Default Price</p>]} rightText={[<strong style={{"opacity":'1',"fontSize":'large'}}>Rs. 4000</strong>]} />
             </div>
             <p className="HostCustomisePrice-small_text">We recommend Rs. 3500</p>
 
             <div className="HostCustomisePrice-lists mt-44">
               <div className="HostCustomisePrice-list">
-                <List style={{"borderTop":'none'}} leftText={[<p>Start date</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>Thu, Jan 22</p>]} />
-                <List style={{"borderBottom":'none',"borderTop":'none '}} leftText={[<p>End date</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>Thu, Jan 28</p>]} />
+                <List ArrowDown={true} rightTextStyle={{"opacity":'1'}} style={{"borderTop":'none'}} leftText={[<p>Start date</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>Thu, Jan 22</p>]} />
+                <List ArrowDown={true} rightTextStyle={{"opacity":'1'}} style={{"borderBottom":'none',"borderTop":'none '}} leftText={[<p>End date</p>]} rightText={[<p style={{"opacity":'1',"fontSize":'large'}}>Thu, Jan 28</p>]} />
               </div>
             </div>
         </div>

@@ -22,9 +22,9 @@ const AddAddress = (props) => {
         <div className="AddAddress-content">
           <p className="AddAddress-small_text">PLEASE ENTER SPECIFIC ADDRESS</p>
           <List style={{"borderBottom":'none',"opacity":'.6 '}} leftText={"Street Lane"} rightArrowNone={true} />
-          <List leftText={"Phase/Mohallah"} rightArrowNone={true} style={{"borderBottom":'none',"opacity":'.6'}} />
-          <List leftText={"Twon/Village"} rightArrowNone={true} style={{"borderBottom":'none',"opacity":'.6'}} />
-          <List leftText={"District/City"} rightArrowNone={true} style={{"opacity":'.6'}} />
+          <List leftText={"Phase / Mohallah"} rightArrowNone={true} style={{"borderBottom":'none',"opacity":'.6'}} />
+          <List leftText={"Twon / Village"} rightArrowNone={true} style={{"borderBottom":'none',"opacity":'.6'}} />
+          <List leftText={"District / City"} rightArrowNone={true} style={{"opacity":'.6'}} />
         </div>
 
         <div className="AddAddress-footer">

@@ -12,6 +12,10 @@
 import React from "react";
 import Button from "../../../components/public/resources/Button/Button";
 import ListWithIcons from "../../../components/public/resources/ListWithIcons/ListWithIcons";
+import ProfileVector from "../../../assets/images/ProfileVector.png";
+import {AiOutlineInfoCircle} from "react-icons/ai";
+import { BsCheck } from "react-icons/bs";
+
 
 
 const Membership = (props) => {
@@ -25,9 +29,9 @@ const Membership = (props) => {
                 <h1>Membership</h1>
                 <p className="mv-16">Before your first trip or listing, you will need to provide us with some more information for verification before you proceed</p>
             </div>
-            <ListWithIcons  title={"Take Selfie"} info={"Require to indentify you at pickup"} style={{"borderBottom":'none'}} />
-            <ListWithIcons title={"Connect Facebook"} info={"Built trust and see mututal friends"} style={{"borderBottom":'none'}} />
-            <ListWithIcons title={"Driving License "} info={"Must require to use CarChaze"} />
+            <ListWithIcons rightStatusIcon={<BsCheck color="red" fontSize={26} />} icon={ProfileVector}  title={"Take Selfie"} info={"Require to indentify you at pickup"} style={{"borderBottom":'none'}} />
+            <ListWithIcons rightStatusIcon={<AiOutlineInfoCircle color="red" fontSize={26} />} icon={ProfileVector} title={"Connect Facebook"} info={"Built trust and see mututal friends"} style={{"borderBottom":'none'}} />
+            <ListWithIcons rightStatusIcon={<AiOutlineInfoCircle color="red" fontSize={26} />} icon={ProfileVector} title={"Driving License "} info={"Must require to use CarChaze"} />
         </div>
         
         <div className="AccMembership-footer mh-16">

@@ -30,24 +30,24 @@ const HostTripSetting = (props) => {
         <h2 className="mt-44 mh-16">Advance booking</h2>
         <p className="mt-16 mh-16">Block requests for your vehicle  that don't request enough earlier before trip start</p>
         <div className="HostTripSetting-lists mt-16">
-          <List leftText={"At Vehicle location"} rightText={"1 hour"} />
-          <List style={{"border":'none'}} leftText={"At Delivery location"} rightText={"12 hour"} />
-          <List leftText={"At Driver's location"} rightText={"12 hour"} />
+          <List ArrowDown={true} leftText={"At Vehicle location"} rightText={"1 hour"} />
+          <List ArrowDown={true} style={{"border":'none'}} leftText={"At Delivery location"} rightText={"12 hour"} />
+          <List ArrowDown={true} leftText={"At Driver's location"} rightText={"12 hour"} />
         </div>
 
         <h2 className="mt-44 mh-16">Trip buffer</h2>
         <p className="mt-16 mh-16">Automatically block request before and after every trip</p>
         <div className="HostTripSetting-lists mt-16">
-          <List leftText={"At Vehicle location"} rightText={"1 hour"} />
-          <List style={{"border":'none'}} leftText={"At Delivery location"} rightText={"12 hour"} />
-          <List leftText={"At Driver's location"} rightText={"12 hour"} />
+          <List ArrowDown={true} leftText={"At Vehicle location"} rightText={"1 hour"} />
+          <List ArrowDown={true} style={{"border":'none'}} leftText={"At Delivery location"} rightText={"12 hour"} />
+          <List ArrowDown={true} leftText={"At Driver's location"} rightText={"12 hour"} />
         </div>
 
         <h2 className="mt-44 mh-16">Trip duration</h2>
         <p className="mt-16 mh-16">Block request for trips that are too short or too long. Maximise earning by selecting "Any".</p>
         <div className="HostTripSetting-lists mt-16">
-          <List style={{"borderBottom":'none'}} leftText={"Shortest Possible trip"} rightText={"1 hour"} />
-          <List leftText={"Longest Possible trip"} rightText={"12 hour"} />     
+          <List ArrowDown={true} style={{"borderBottom":'none'}} leftText={"Shortest Possible trip"} rightText={"1 hour"} />
+          <List ArrowDown={true} leftText={"Longest Possible trip"} rightText={"12 hour"} />     
         </div>
 
         <h2 className="mt-44 mh-16">Weekend trip duration</h2>

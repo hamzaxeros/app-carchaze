@@ -29,7 +29,7 @@ const HostPickLocation = (props) => {
         <List rightTextStyle={{"opacity":'1',"fontSize":'medium'}} leftText={[<p>ThoKar Niaz Bag</p>,<p style={{"opacity":'.6',"fontSize":'medium',"paddingTop":'4px'}}>Bus stand</p>,<p style={{"opacity":'.6',"fontSize":'medium',"paddingTop":'4px'}}>Daewoo stand, G.T. Road, Lahore</p>]} rightText={"Rs.1000"} rightArrowNone={true} />
         
         <h3 className="mt-44 mh-16 mb-16">Delivered to you </h3>
-        <List leftText={"Enter delivery address"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} rightText={"Rs. 1000"} />
+        <List leftText={"Enter delivery address"} rightTextStyle={{"opacity":'1',"fontSize":'medium'}} rightArrowNone={true} rightText={"Rs. 1000"} />
         <p className="HostPickLocation-small">The host offer delivery with in 15 miles radius of vehicle location</p>
         <div className="mv-44 mh-16">
             <Button title={"Save"} />

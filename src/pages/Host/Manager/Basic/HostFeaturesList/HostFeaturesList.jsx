@@ -19,7 +19,7 @@ import {IoBluetoothOutline} from "react-icons/io5";
 const HostFeaturesList = (props) => {
   return (
     <React.Fragment>
-      <div className="HostFeaturesList-outer">
+      <div className="HostFeaturesList-outer mv-44">
         <div className="HostFeaturesList-lists">
           <div className="HostFeaturesList-list">
             <List rightArrowNone={true} style={{"borderTop":'none'}} leftText={[<p>You must be at least 21 to rent</p>]} />

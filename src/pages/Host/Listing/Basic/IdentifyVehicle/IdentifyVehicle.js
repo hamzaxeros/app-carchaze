@@ -21,9 +21,9 @@ const IdentifyVehicle = (props) => {
       <div className="IdentifyVehicle-outer mv-44">
         <div className="IdentifyVehicle-content">
           <p className="IdentifyVehicle-small_text">IDENTIFY YOUR VEHICLE</p>
-          <List leftText={"Year"} rightText={"Select"} style={{"borderBottom":'none'}} />
-          <List leftText={"Make"} rightText={"Select"} style={{"borderBottom":'none'}} />
-          <List leftText={"Model"} rightText={"Select"} />
+          <List leftText={"Year"} ArrowDown={true} rightText={"Select"} style={{"borderBottom":'none'}} />
+          <List leftText={"Make"} ArrowDown={true} rightText={"Select"} style={{"borderBottom":'none'}} />
+          <List leftText={"Model"} ArrowDown={true} rightText={"Select"} />
         </div>
         <div className="IdentifyVehicle-footer">
           <Button title={"Confirm"} />

@@ -23,7 +23,7 @@ const DefaultPrice = (props) => {
           <h2 className="mh-16">Default Price</h2>
           <p className="mt-16 mh-16">Set your default price, Prices are before any applicable discounts</p>
           <div className="HostDefaultPrice-list mt-44">
-            <List leftText={"Price"} rightArrowNone={true} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'black'}}>Rs. 4000</p>]} />
+            <List leftText={"Price"} rightTextStyle={{"opacity":'1'}} rightArrowNone={true} rightText={[<p style={{"opacity":'1',"fontSize":'large',"color":'black'}}><strong>Rs. 4000</strong></p>]} />
           </div>
           <p className="HostDefaultPrice-small_text">Recommended: Rs. 3000</p>
         </div>
