@@ -1,0 +1,29 @@
+.HostCheckoutTrip-car_details{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+}
+.HostCheckoutTrip-items_list{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    p{
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.HostCheckoutTrip-total_list{
+    border: 1px solid #00000040;
+    border-radius: 12px;
+    margin: 44px 16px;
+    p{
+        padding: 12px 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.HostCheckoutTrip-small_text{
+    margin-left: 16px;
+    margin-top: 44px;
+    opacity: .6;
+    margin-bottom: 8px;
+}

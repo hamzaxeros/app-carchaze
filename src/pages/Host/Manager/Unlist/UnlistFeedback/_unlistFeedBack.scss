@@ -1,0 +1,14 @@
+.UnlistFeedback-content{
+    min-height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.UnlistFeedback-textarea{
+    padding-top: 16px;
+    padding-left: 6px;
+    border: none;
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+}

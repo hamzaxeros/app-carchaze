@@ -1,0 +1,28 @@
+.HostPayCurrentMethod-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 87vh;
+}
+.HostPayCurrentMethod-content{
+    width: 100%;
+}
+.HostPayCurrentMethod-list{
+    img{
+        height: 30px;
+    }
+}
+.HostPayCurrentMethod-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+.HostPayCurrentMethod-small_text{
+    font-size: medium;
+    opacity: .6;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}

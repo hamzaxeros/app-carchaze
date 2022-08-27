@@ -13,6 +13,9 @@ import List from "../../../../../components/public/resources/List/List";
 import Input from "../../../../../components/public/resources/Input/Input";
 import Button from "../../../../../components/public/resources/Button/Button";
 
+// For slider half to be colored must check this url, we can do it with js values
+// https://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider
+
 const HostAddLocation = (props) => {
 
 
@@ -30,7 +33,9 @@ const HostAddLocation = (props) => {
           <div className="HostAddLocation-range">
             <p className="HostAddLocation-price opacity-6">Rs. 5000</p>
             <p className="opacity-6">Delivery fee included pickup & return</p>
-            <Input type={"range"} iconNone={true} />
+            <div className="HostAddLocation-range_input">
+              <Input type={"range"} iconNone={true} />
+            </div>
           </div>
         </div>
         <div className="HostAddLocation-footer">

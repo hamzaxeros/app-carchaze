@@ -104,7 +104,26 @@ import HostProfile from "../../../pages/Host/Manager/Basic/HostProfile/HostProfi
 import HostTripReviews from "../../../pages/Host/Manager/Basic/HostTripReviews/HostTripReviews";
 
 
+// Host payment and payout screens
+import HostAddPaymentCard from "../../../pages/Host/Manager/Payment/AddPaymentCard/HostAddPaymentCard";
+import HostAvailableMethod from "../../../pages/Host/Manager/Payment/AvailableMethod/HostAvailableMethod";
+import HostCurrentMethod from "../../../pages/Host/Manager/Payment/CurrentMethod/HostCurrentMethod";
+import HostPayoutAddBank from "../../../pages/Host/Manager/Payout/AddBankAccount/HostPayoutAddBank";
+import HostPayoutCurrentMethod from "../../../pages/Host/Manager/Payout/PayoutCurrentMethod/HostPayoutCurrentMethod";
+import HostPayoutAvailableMethod from "../../../pages/Host/Manager/Payout/PayoutAvailableMethod/HostPayoutAvailableMethod";
 
+import HostCheckoutTrip from "../../../pages/Host/Manager/Basic/CheckoutTrip/HostCheckoutTrip";
+import HostFilter from "../../../pages/Host/Manager/Basic/HostFilter/HostFilter";
+
+// Host Entrance Pages
+import HostEnterEarnMoney from "../../../pages/Host/Manager/Entrance/EarnMore/HostEnterEarnMoney";
+import HostEnterYouCovered from "../../../pages/Host/Manager/Entrance/YouCovered/HostEnterYouCovered";
+import HostEnterTrustAndSafe from "../../../pages/Host/Manager/Entrance/TrustAndSafe/HostEnterTrustAndSafe";
+
+// Host unlisting the car
+import ReasonUnlist from "../../../pages/Host/Manager/Unlist/ReasonUnlist/ReasonUnlist";
+import BasicUnlistTextPage from "../../../pages/Host/Manager/Unlist/BasicUnlistTextPage/BasicUnlistTextPage";
+import UnlistFeedback from "../../../pages/Host/Manager/Unlist/UnlistFeedback/UnlistFeedback";
 
 
 import { PublicRoutes } from "../../../routes";
@@ -117,8 +136,20 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-
-			<HostProfile />
+			<UnlistFeedback />			{/* <BasicUnlistTextPage /> */}
+			{/* <ReasonUnlist /> */}
+			{/* <HostEnterEarnMoney /> */}
+			{/* <HostEnterYouCovered /> */}
+			{/* <HostEnterTrustAndSafe /> */}
+			{/* <HostFilter /> */}
+			{/* <HostCheckoutTrip /> */}
+			{/* <HostPayoutAddBank /> */}
+			{/* <HostPayoutAvailableMethod/> */}
+			{/* <HostPayoutCurrentMethod/> */}
+			{/* <HostAddPaymentCard /> */}
+			{/* <HostAvailableMethod /> */}
+			{/* <HostCurrentMethod /> */}
+			{/* <HostProfile /> */}
 			{/* <HostTripReviews /> */}
 			{/* <HostFeaturesList /> */}
 			{/* <ReportListing /> */}

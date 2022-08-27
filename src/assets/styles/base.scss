@@ -1018,3 +1018,26 @@ img {
 @import "../../pages/Host/Manager/Basic/HostFeaturesList/hostFeaturesList";
 @import "../../pages/Host/Manager/Basic/HostTripReviews/hostTripReviews";
 @import "../../pages/Host/Manager/Basic/HostProfile/hostProfile";
+
+
+@import "../../pages/Host/Manager/Payment/AddPaymentCard/hostAddPaymentCard";
+@import "../../pages/Host/Manager/Payment/AvailableMethod/hostAvailableMethod";
+@import "../../pages/Host/Manager/Payment/CurrentMethod/hostCurrentMethod";
+@import "../../pages/Host/Manager/Payout/AddBankAccount/hostPayoutAddBank";
+@import "../../pages/Host/Manager/Payout/PayoutAvailableMethod/hostPayoutAvailbleMethod";
+@import "../../pages/Host/Manager/Payout/PayoutCurrentMethod/HostPayoutCurrentMethod";
+
+
+@import "../../pages/Host/Manager/Basic/CheckoutTrip/hostCheckoutTrip";
+@import "../../pages/Host/Manager/Basic/HostFilter/hostFilter";
+
+
+@import "../../pages/Host/Manager/Entrance/EarnMore/HsotEnterEarnMoney";
+@import "../../pages/Host/Manager/Entrance/TrustAndSafe/HostEnterTrustAndSafe";
+@import "../../pages/Host/Manager/Entrance/YouCovered/HostEnterYouCovered";
+
+
+@import "../../pages/Host/Manager/Unlist/BasicUnlistTextPage/basicUnlistTextPage";
+@import "../../pages/Host/Manager/Unlist/ReasonUnlist/reasonUnlist";
+@import "../../pages/Host/Manager/Unlist/UnlistFeedback/unlistFeedBack";
+

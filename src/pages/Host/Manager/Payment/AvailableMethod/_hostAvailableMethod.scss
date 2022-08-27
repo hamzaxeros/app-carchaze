@@ -1,0 +1,28 @@
+.HostPayAvailableMethod-list{
+    img{
+        height: 30px;
+    }
+}
+.HostPayAvailableMethod-small_text{
+    font-size: medium;
+    opacity: .6;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.HostPayAvailableMethod-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 87vh;
+}
+.HostPayAvailableMethod-content{
+    width: 100%;
+}
+.HostPayAvailableMethod-footer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

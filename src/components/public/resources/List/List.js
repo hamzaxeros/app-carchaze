@@ -31,7 +31,7 @@ const List = (props) => {
   return (
     <React.Fragment>
       <div className="List-outer" style={props.style}>
-        <div className="List-left_name">{props.leftText}</div>
+        <div className="List-left_text">{props.leftText}</div>
           <div className="List-right_content">
             <div className="List-right_text" style={props.rightTextStyle} >
               {props.rightText}
