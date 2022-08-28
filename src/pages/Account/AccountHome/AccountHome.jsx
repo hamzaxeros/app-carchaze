@@ -4,7 +4,7 @@
  * 
  * @author Hamza Hussain <hamza@carchaze.com>
  * @copyright CarChaze 2022
- * @version 0.2.0
+ * @version carchaze.com@0.2.0
  * @description Account Home Page
  * 
  */
@@ -18,7 +18,7 @@
 
  /**
  * @function
- * @version 0.2.0
+ * @version carchaze.com@0.2.0
  * @param {AccountHomeIProps} props
  * @returns
  */

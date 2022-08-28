@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useOnlineStatus
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description OnlineStatus Modular, To check is some one is in your application or not
  *
  */

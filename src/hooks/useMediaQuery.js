@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useMediaQuery
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description MediaQuery Modular, To use media query in js using hooks without css
  * 
  */

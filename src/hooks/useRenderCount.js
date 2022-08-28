@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useRenderCount
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description RenderCount Modular, It is use to capture component rendering count cycle
  * 
  */

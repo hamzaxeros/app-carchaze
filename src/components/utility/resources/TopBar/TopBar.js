@@ -1,3 +1,12 @@
+/**
+ * TopBar
+ * @module 🔗:src/components/utility/resources/TopBar
+ * 
+ * @author Hamza Hussain <hamza@carchaze.com>
+ * @version carchaze.com@0.1.0
+ * @description TopBar
+ * 
+ */
 import React from "react";
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { IoCarOutline, IoShieldCheckmarkOutline } from "react-icons/io5";

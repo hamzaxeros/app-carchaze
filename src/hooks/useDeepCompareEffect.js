@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useDeepCompareEffect
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description useDeepCompareEffect Modular use for deep comparison instead of useEffect
  * 
  */

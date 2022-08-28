@@ -1,3 +1,13 @@
+/**
+ * Wrapper
+ * @module 🔗:src/components/public/resources
+ * 
+ * @author Hamza Hussain <hamza@carchaze.com>
+ * @version carchaze.com@0.2.0
+ * @description Wrapper
+ * 
+ */
+
 import React from 'react';
 import {observer} from 'mobx-react';
 // import { cameraWrapper } from '../../utils';

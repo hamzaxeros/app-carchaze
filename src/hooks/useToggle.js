@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useToggle
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Toggler module for toggling something with boolean hook
  *
  */

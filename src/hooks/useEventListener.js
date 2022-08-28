@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useEventListener
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Use EventListener Hook use to access different type of event listeners for different elements or overall window
  * 
  */

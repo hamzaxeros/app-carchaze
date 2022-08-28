@@ -1,12 +1,12 @@
-//  File Name: ListStyler
-//  Component Created at 06 Jan, 2022 - 09:02:34
-//
-//  ==========================================================
-//  COMPANY: ( CarChaze )
-//
-//  Created by CarChaze developers.
-//  Copyright © ( 2022 - Current ) CarChaze. All rights reserved.
-//  ===========================================================
+/**
+ * ListStyler
+ * @module 🔗:src/components/public/resources/ListStyler
+ * 
+ * @author Hamza Hussain <hamza@carchaze.com>
+ * @version carchaze.com@0.1.0
+ * @description List Styler Component
+ * 
+ */
 
 import React from "react";
 

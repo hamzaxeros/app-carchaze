@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useDebounce
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Debounce Modular, Work like useTimeout, but it will run only on changes not gonna run on mount
  * 
  */

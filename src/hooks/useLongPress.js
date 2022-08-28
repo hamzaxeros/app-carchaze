@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useLongPress
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description LongPress Modular, To click or press after long time, through given time in options
  * 
  */

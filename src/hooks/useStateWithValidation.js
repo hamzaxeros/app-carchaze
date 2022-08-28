@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useStateWithValidation
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description StateWithValidation Modular, Work like normal state, but here you can directly validate your state through callback function
  * 
  */

@@ -1,12 +1,12 @@
-//  File Name: Card
-//  Component Created at 06 Jan, 2022 - 11:41:10
-//
-//  ==========================================================
-//  COMPANY: ( CarChaze )
-//
-//  Created by CarChaze developers.
-//  Copyright © ( 2022 - Current ) CarChaze. All rights reserved.
-//  ===========================================================
+/**
+ * Card
+ * @module 🔗:src/components/public/resources/Card
+ * 
+ * @author Hamza Hussain <hamza@carchaze.com>
+ * @version carchaze.com@0.1.0
+ * @description Card Component
+ * 
+ */
 
 import React from "react";
 import { Img } from "react-image";

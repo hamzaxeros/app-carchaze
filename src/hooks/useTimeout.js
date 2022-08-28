@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useTimeout
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Timeout Modular, Work like setTimeout, but it have built-in function, you can use it in any react component
  * 
  */

@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useSize
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Size Modular, It will gave you the size of passed ref
  *
  */

@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useTranslation
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Translation Modular, use for translation this pkg only use for web based apps
  * 
  */

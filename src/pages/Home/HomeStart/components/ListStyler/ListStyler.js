@@ -3,7 +3,7 @@
  * @module 🔗:src/pages/Home/HomeStart/components/ListStyler
  * 
  * @author Hamza Hussain <hamza@carchaze.com>
- * @version 0.2.0
+ * @version carchaze.com@0.2.0
  * @description List  Styles
  * 
  */

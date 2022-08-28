@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useOnScreen
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description OnScreen Modular, To return you whether your element is on Screen or Not
  * 
  */

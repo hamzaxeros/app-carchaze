@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useCopyToClipboard
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description CopyToClipboard Modular, It will copy the text to clipboard and will also return the copied text
  *
  */

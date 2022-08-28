@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useUpdateEffect
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description It work exact like useEffect, but it will run on update, not on the component mount
  * 
  */

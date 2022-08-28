@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useAsync
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description useAsync Modular use for async functionality, that return error, response & loading
  * 
  */

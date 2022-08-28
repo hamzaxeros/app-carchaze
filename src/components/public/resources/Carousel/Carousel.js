@@ -1,12 +1,12 @@
-//  File Name: Carousel
-//  Component Created at 13 Sep, 2021 - 09:35:05
-
-//  ==========================================================
-//  COMPANY: ( CarChaze )
-//
-//  Created by CarChaze developers.
-//  Copyright © 2021 CarChaze. All rights reserved.
-//  ===========================================================
+/**
+ * Carousel
+ * @module 🔗:src/components/public/resources/Carousel
+ * 
+ * @author Hamza Hussain <hamza@carchaze.com>
+ * @version carchaze.com@0.1.0
+ * @description Carousel Component
+ * 
+ */
 
 import React from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";

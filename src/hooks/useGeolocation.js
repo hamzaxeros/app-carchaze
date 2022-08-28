@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useGeolocation
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Geolocation Modular, Will give you the location of yours
  */
 

@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useHover
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Hover Modular, To capture whether element is hovered or not
  * 
  */

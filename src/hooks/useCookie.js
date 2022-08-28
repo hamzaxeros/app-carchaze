@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useCookie
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description Cookie Modular, To use browser cookies
  *
  */

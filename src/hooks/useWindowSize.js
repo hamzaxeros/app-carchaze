@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useWindowSize
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.2.0
+ * @version carchaze.com@0.2.0
  * @description WindowSize Modular, Give you the window size
  *
  */

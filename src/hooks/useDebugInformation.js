@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useDebugInformation
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description DebugInformation Modular use for to debug any info whether its node based or react component based
  * 
  */

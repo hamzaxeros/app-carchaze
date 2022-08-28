@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useFetch
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description useFetch Modular use for async functionality, to fetch api stuffs and return loading, error & response
  * 
  */

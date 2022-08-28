@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useStateWithHistory
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description UseStateHistory Modular use to access previous state state history. Its exact like Normal state, but it have history, by passing state variable ref
  * 
  */

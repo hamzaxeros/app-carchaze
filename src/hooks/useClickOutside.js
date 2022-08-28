@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useClickOutside
  *
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description ClickOutside Modular, It will access the ref, if clicked outside of that ref it will run the function of callback which you passed
  *
  */

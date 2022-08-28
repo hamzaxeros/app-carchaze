@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useStorage
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description useStorage Modular use like state, but it also save it in storage for cache
  * 
  */

@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useArray
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version carchaze@0.1.0
  * @description use Array hooks have a some basic built-in functionality, that you play with in your component
  * 
  */
