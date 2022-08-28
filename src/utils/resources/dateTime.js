@@ -1,3 +1,5 @@
+import { datetimeManager } from "../../components/public/resources/DateTimePicker/dateTimePicker.manager";
+
 /**
  * Specially design to return minutes and seconds as a timeout
  * @param {number} seconds Number of seconds - number
@@ -13,3 +15,5 @@ export const secondsToMs = seconds => {
   const ms = `${(m < 10 && total>0) ? 0 : ''}${total===0 ? '':`${m}:` }${(s < 10 && s>0) ? 0 : ''}${total===0?'':s}`;
   return ms;
 };
+
+export const picker = datetimeManager

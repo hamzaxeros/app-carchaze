@@ -20,7 +20,7 @@ export default {
     alert_input_color: '#cfcfcf',
     toast_color: '#ec7272cf',
     switch_disable_color: 'rgb(134, 134, 138)',
-    basic_border_color: '#3c3c4336',
+    basic_border_color: '#91919736',
     disabled_color: 'rgb(190,190,190)',
     icon_color:'rgb(150,150,150)'
   },

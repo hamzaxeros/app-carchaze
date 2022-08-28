@@ -3,7 +3,7 @@
  * @module 🔗:hooks/useScript
  * 
  * @author Hamza Hussain <hamzahussain@carchaze.com>
- * @version 0.1.0
+ * @version 0.1.1
  * @description useScript Modular use for using script cdn's or or file at some point through hooks
  * 
  */
@@ -14,6 +14,7 @@ import useAsync from "./useAsync"
  * Use for script cdn's or or file at some point through hooks
  * 
  * @function
+ * @version 0.1.1
  * @param {string} url 
  * @returns {{loading:boolean, error:(any|undefined), value:(any|undefined)}}
  * 

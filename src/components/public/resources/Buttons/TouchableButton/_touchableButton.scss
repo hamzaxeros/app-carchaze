@@ -1,0 +1,24 @@
+.touchable_button--containerOfTouchableOpacity {
+  background-color: $basicColor;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+}
+.touchable_button--buttonTitle {
+  color: #FFF;
+  font-family: 'text-sb';
+  font-size: 17px;
+  text-align: center;
+}
+.touchable_button--leftIcon {
+  font-size: 19px;
+  margin-right: 8px;
+}
+.touchable_button--rightIcon {
+  font-size: 19px;
+  margin-left: 8px;
+}

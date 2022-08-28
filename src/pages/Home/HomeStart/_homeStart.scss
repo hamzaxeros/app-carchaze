@@ -1,0 +1,343 @@
+/* -------------------------------------------
+ * Hero Section
+ * -----------------------------------------*/
+.home__hero__container {
+	// min-height: calc(100vh - 70px);
+	width: 100%;
+	position: relative;
+}
+.home__hero__top-image-container {
+	width: 100%;
+	min-height: 55vh;
+	overflow: hidden;
+	position: relative;
+}
+.home__hero__top-image-container > img {
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+	object-position: center 70%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	display: block;
+}
+.home__hero__top-image-container > .search_cells-container {
+	width: fit-content;
+	z-index: 10000;
+	margin: 60px auto;
+	min-width: 250px;
+	max-width: 500px;
+	width: 100%;
+	padding: 0 20px;
+}
+.search_cell {
+	border: 1px solid $basicBorderColor;
+	padding: 20px 16px;
+	background-color: white;
+
+	border-radius: 10px;
+
+	li{
+		margin-top: 10px;
+		border-bottom: 1px solid $basicBorderColor;
+
+		&:last-child{
+			margin-bottom: 0;
+			border-bottom: 0;
+		}
+
+		label {
+			display: block;
+			font-size: 10px;
+			text-transform: uppercase;
+			font-family: 'text-b';
+		}
+		&>div{
+			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		p{
+			padding: 7px 0;
+			font-size: 15px;
+		}
+		button{
+			width: 100%;
+		}
+	}
+
+	.search_input {
+		display: block;
+		margin-top: 0;
+
+		
+		input {
+			border: none;
+			background-color: transparent;
+			padding: 7px 0;
+			font-size: 15px;
+			width: 100%;
+		}
+	}
+}
+.home__hero__top-image-load {
+	width: 100%;
+	height: 100%;
+	background: rgb(250, 250, 250);
+	box-shadow: inset 0px -30px 60px rgba(0, 0, 0, 0.089);
+}
+.carchaze-hero-logo {
+	margin: auto;
+	height: 150px;
+	width: 100%;
+	align-self: center;
+	margin-top: -75px;
+}
+
+.home__hero__bottom-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+}
+.home__hero__bottom-container > h1 {
+	font-size: 65px;
+	font-family: text-b;
+	text-align: center;
+	margin: 40px 0 30px 0;
+	font-weight: 400;
+}
+.home__hero__bottom-container > h4 {
+	font-size: 40px;
+	margin: 0 0 30px;
+	font-weight: 500;
+	text-align: center;
+}
+/* -------------------------------------------
+ * 2 Section
+ * -----------------------------------------*/
+ .renting__5__container {
+	padding:$sectionPadding;
+}
+.renting__5__sub-container {
+	max-width: 1330px;
+	margin: auto;
+}
+/* -------------------------------------------
+ * 3 Section
+ * -----------------------------------------*/
+.renting__4__container {
+	padding: 100px 20px;
+}
+.renting__4__sub-container {
+	max-width: 1100px;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.renting__4__sub-container > h1 {
+	font-size: 65px;
+	font-family: "text-sb";
+	margin-bottom: 40px;
+}
+.renting__4__sub-container > h3 {
+	font-size: 40px;
+	font-family: "text-sb";
+	margin-bottom: 24px;
+	color: $spanColor;
+}
+.renting__4__sub-container > p {
+	font-size: 30px;
+	font-family: text-r;
+}
+.renting__4__sub-container > h3 > span {
+	color: #000;
+}
+.renting__4__sub-container > button {
+	margin-top: 50px;
+}
+
+/* -------------------------------------------
+ * 6 Section
+ * -----------------------------------------*/
+.home__2__container {
+	display: -ms-grid;
+	display: -moz-grid;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: calc(100vh - 110px);
+	grid-gap: 20px;
+	padding: $sectionPadding;
+	padding-bottom: 20px;
+}
+.home__2__sub-container {
+	background-color: $sectionBg;
+	overflow: hidden;
+}
+.home__2__sub-container > img {
+	background-color: $sectionBg;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.home__2__sub-container-content-base {
+	padding: 20px 40px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.home__2__sub-container-content-base > div {
+	max-width: 600px;
+}
+.home__2__sub-container-content-base > div > h1 {
+	font-family: "text-sb";
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 55px;
+}
+.home__2__sub-container-content-base > div > h1 > span {
+	color: $spanColor;
+}
+.home__2__sub-container-content-base > div > p {
+	font-size: 30px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.home__2__sub-container-content-base > div > p > span {
+	font-family: "text-sb";
+}
+/* -------------------------------------------
+ * 7 Section
+ * -----------------------------------------*/
+.section__6_container {
+	background-color: $sectionBg;
+	padding: $sectionPadding;
+}
+.section__6__sub-container {
+	max-width: 1330px;
+	margin: auto;
+	display: -ms-grid;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+}
+.section__6__left-container,
+section__6__right-container {
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.section__6__left-container > h1 {
+	font-size: 65px;
+	font-family: "text-sb";
+	color: $spanColor;
+	margin: -5px 0 30px 0;
+}
+.section__6__left-container > h1 > span {
+	color: $basicColor;
+}
+.section__6__left-container > h3 {
+	font-size: 40px;
+	font-family: "text-sb";
+}
+/* -------------------------------------------
+ * 8 Section
+ * -----------------------------------------*/
+.home__3__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: transparent;
+}
+.home__3__sub-container {
+	max-width: 1100px;
+	padding: $sectionPadding;
+	text-align: center;
+}
+.home__3__sub-container > h3 {
+	font-size: 30px;
+	font-family: "text-sb";
+}
+.home__3__sub-container > h3 > span {
+	color: $spanColor;
+}
+.home__3__security-icon {
+	font-size: 200px;
+	color: $basicColor;
+	margin: 30px 0;
+}
+.home__3__sub-container > h1 {
+	font-weight: 400;
+	font-family: "text-sb";
+	font-size: 50px;
+}
+.home__3__sub-container > p {
+	font-size: 30px;
+	line-height: 38px;
+	margin-top: 30px;
+}
+.home__3__sub-container > p > span {
+	font-family: "text-sb";
+}
+/* -------------------------------------------
+ * 9 Section
+ * -----------------------------------------*/
+.home__4__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.home__4__sub-container {
+	max-width: 1100px;
+	padding: $sectionPadding;
+	display: -ms-grid;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.home__4__content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 0;
+}
+.home__4__content-write {
+	padding: 20px 30px;
+	max-width: 450px;
+}
+.home__4__content > h1 {
+	font-size: 40px;
+	font-family: text-b;
+	font-weight: 400;
+	color: $basicColor;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.home__4__content > h1 > * {
+	margin-left: 20px;
+	margin-top: 4px;
+}
+.home__4__content > p {
+	font-size: 30px;
+	font-family: text-r;
+	font-weight: 400;
+	line-height: 35px;
+}
+
+@import "./homeStart.responsive";

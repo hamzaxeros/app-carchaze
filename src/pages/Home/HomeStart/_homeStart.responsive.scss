@@ -1,0 +1,198 @@
+@media (max-width: 1300px) {
+	/* ====== Section 02 ======== */
+	.renting__4__sub-container > h1 {
+		font-size: 45px;
+		margin-bottom: 35px;
+	}
+	.renting__4__sub-container > h3 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	.renting__4__sub-container > p {
+		font-size: 25px;
+	}
+	/* ========== Section 06 ========== */
+
+	.home__2__sub-container-content-base > div {
+		max-width: 600px;
+	}
+	.home__2__sub-container-content-base > div > h1 {
+		font-size: 38px;
+		line-height: 40px;
+	}
+	.home__2__sub-container-content-base > div > p {
+		font-size: 25px;
+		line-height: 28px;
+	}
+	/* ========== Section 08 ========== */
+	.home__3__sub-container > h3 {
+		font-size: 25px;
+	}
+	.home__3__security-icon {
+		font-size: 160px;
+		margin: 25px 0;
+	}
+	.home__3__sub-container > h1 {
+		font-size: 37px;
+	}
+	.home__3__sub-container > p {
+		font-size: 25px;
+		line-height: 28px;
+		margin-top: 25px;
+	}
+	/* ========== Section 09 ========== */
+	.home__4__content > h1 {
+		font-size: 30px;
+	}
+	.home__4__content > p {
+		font-size: 23px;
+		line-height: 24px;
+	}
+}
+@media (max-width: 1000px) {
+	/* ====== Section 06 ======== */
+	.home__2__container {
+		grid-template-columns: 1fr;
+		grid-template-rows: unset;
+		grid-gap: 5px;
+	}
+	.home__2__sub-container-content-base {
+		padding: 50px 40px;
+	}
+	.home__2__container > div:nth-child(2) {
+		order: -1;
+		height: 40vh;
+	}
+
+	.home__2__container > div:nth-child(3) {
+		margin-top: 30px;
+		height: 40vh;
+	}
+	/* ====== Section 07 ======== */
+	.section__6__sub-container {
+		grid-gap: 50px;
+		grid-template-columns: 1fr;
+	}
+	.section__6__sub-container > div:nth-child(2) {
+		max-height: 60vh;
+	}
+	.section__6__left-container > h1 {
+		font-size: 45px;
+	}
+	.section__6__left-container > h3 {
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 850px) {
+	/* ====== Section 01 - Hero ======== */
+	.home__hero__bottom-container > h1 {
+		font-size: 50px;
+	}
+	.home__hero__bottom-container > h4 {
+		font-size: 30px;
+	}
+	/* ====== Section 03 ======== */
+	.renting__4__sub-container > h1 {
+		font-size: 40px;
+		margin-bottom: 35px;
+	}
+	.renting__4__sub-container > h3 {
+		font-size: 26px;
+		margin-bottom: 13px;
+	}
+	.renting__4__sub-container > p {
+		font-size: 20px;
+	}
+	/* ========== Section 09 ========== */
+	.home__4__content > h1 {
+		font-size: 24px;
+	}
+	.home__4__content > p {
+		font-size: 19px;
+		line-height: 20px;
+	}
+}
+@media (max-width: 560px) {
+	/* ====== Section 09 ======== */
+	.home__4__sub-container {
+		grid-template-columns: 1fr;
+		margin: auto;
+		grid-gap: 0;
+	}
+	.home__4__sub-container > div:nth-child(2) {
+		align-items: flex-end;
+	}
+	.home__4__content {
+		padding: 0;
+	}
+	.home__4__content:nth-child(1),
+	.home__4__content:nth-child(4) {
+		padding: 30px 0;
+	}
+	.home__4__sub-container > div:nth-child(1) {
+		order: 4;
+	}
+	.home__4__sub-container > div:nth-child(4) {
+		order: -1;
+	}
+
+	.home__4__content > h1 {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 450px) {
+	/* ====== Section 01 - Hero ======== */
+	.home__hero__bottom-container > h1 {
+		font-size: 35px;
+		margin-bottom: 15px;
+	}
+	.home__hero__bottom-container > h4 {
+		font-size: 21.5px;
+	}
+	/* ====== Section 06 ======== */
+	.home__2__container {
+		padding: 70px 0 0 0;
+	}
+	.home__2__sub-container-content-base {
+		padding: 50px 20px;
+	}
+	.home__2__sub-container-content-base > div > h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.home__2__sub-container-content-base > div > p {
+		font-size: 20px;
+		line-height: 22px;
+	}
+	/* ====== Section 07 ======== */
+	.section__6_container {
+		background-color: transparent;
+	}
+	.section__6__left-container {
+		padding: 0;
+	}
+	.section__6__left-container > h1 {
+		font-size: 33px;
+		margin-bottom: 15px;
+	}
+	.section__6__left-container > h3 {
+		font-size: 27px;
+	}
+	/* ====== Section 08 ======== */
+	.home__3__container {
+		background-color: $sectionBg;
+	}
+	.home__3__sub-container > h3 {
+		font-size: 23px;
+	}
+	.home__3__sub-container > h1 {
+		font-size: 28px;
+	}
+	.home__3__sub-container > p {
+		font-size: 22px;
+		line-height: 24px;
+		margin-top: 22px;
+	}
+}

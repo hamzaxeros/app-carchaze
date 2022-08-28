@@ -6,9 +6,9 @@ import { Layout } from "./components/utility";
 // @ts-ignore
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
+	<React.Fragment>
 		<Router>
 			<Layout />
 		</Router>
-	</React.StrictMode>
+	</React.Fragment>
 );

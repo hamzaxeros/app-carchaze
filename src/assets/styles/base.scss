@@ -1,3 +1,6 @@
+@import "./variables";
+@import "./font";
+
 html {
 	font-family: "text-r" sans-serif;
 	/* -ms-text-size-adjust: 100%; */
@@ -249,6 +252,7 @@ html {
 
 body {
 	font-weight: normal;
+	background-color: $appBg;
 	line-height: 1;
 	text-rendering: optimizeLegibility;
 	word-wrap: break-word;
@@ -857,8 +861,8 @@ ul {
 }
 .filled-button {
 	height: 44px;
-	border: 1px solid var(--main-color);
-	background-color: var(--main-color);
+	border: 1px solid $basicColor;
+	background-color: $basicColor;
 	color: #fff;
 	padding: 5px 15px;
 	border-radius: 0;
@@ -870,28 +874,28 @@ ul {
 .filled-button:hover {
 	opacity: 0.95;
 	background-color: transparent;
-	color: var(--main-color);
+	color: $basicColor;
 }
 .outlined-button {
 	background-color: transparent;
-	border: 1px solid var(--main-color);
+	border: 1px solid $basicColor;
 	border-radius: 0px;
 	padding: 8px 15px;
 	height: 50px;
-	color: var(--main-color);
+	color: $basicColor;
 	margin-top: 80px;
 	transition: all 0.2s ease-in-out 0s;
 	font-family: "text-b";
 }
 .outlined-button:hover {
-	background-color: var(--main-color);
+	background-color: $basicColor;
 	color: #fff;
 }
 .no-radius {
 	border-radius: 0;
 }
 a {
-	color: var(--main-color);
+	color: $basicColor;
 }
 a:hover {
 	text-decoration-line: underline;
@@ -904,12 +908,25 @@ img {
 	pointer-events: none;
 }
 
-@import "./variables";
-@import "./font";
+// =============================  SUB Component - Pages  =============================
+@import "./../../pages/Home/HomeStart/components/ListStyler/listStyle";
+
 
 // =============================  Component - Public  =============================
+@import "../../components/public/resources/Card/card";
+@import "../../components/public/resources/Carousel/carousel";
+@import "../../components/public/resources/DateTimePicker/dateTimePicker";
+@import "../../components/public/resources/Modal/modal";
+@import "../../components/public/resources/Buttons/TouchableButton/touchableButton";
+@import "../../components/public/resources/Buttons/BasicRowButton/basicRowButton";
 
 // =============================  Component - Utility  =============================
+@import "../../components/utility/resources/TabBar/tabbar";
+@import "../../components/utility/resources/TopBar/topbar";
 
 // =============================  Pages - Static  =============================
-@import "../../pages/Home/home";
+@import "../../pages/Home/HomeStart/homeStart";
+@import "../../pages/Host/HostHome/hostHome";
+@import "../../pages/Account/AccountHome/accountHome";
+@import "../../pages/Messages/Chat/chat";
+@import "../../pages/Trips/TripHome/tripHome";

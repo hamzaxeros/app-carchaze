@@ -1,21 +1,20 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
 import {observer} from 'mobx-react';
-import { cameraWrapper } from '../../utils';
+// import { cameraWrapper } from '../../utils';
 
 const Wrapper = observer(() => {
   return (
     <>
-      {cameraWrapper._visibility && (
-        <View style={styles.container}>
+      {/* {cameraWrapper._visibility && (
+        <div style={styles.container}>
           <cameraWrapper._children />
-        </View>
-      )}
+        </div>
+      )} */}
     </>
   );
 });
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
     position: 'absolute',
     top: 0,
@@ -24,6 +23,6 @@ const styles = StyleSheet.create({
     bottom: 0,
     backgroundColor: 'rgba(0,0,0,0.2)',
   },
-});
+}
 
 export default Wrapper;

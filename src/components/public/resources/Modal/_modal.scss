@@ -1,0 +1,27 @@
+.modal-main_container{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background-color: rgba(0,0,0,0.3);
+  overflow: hidden;
+  z-index: 100;
+}
+.modal-container{
+  position: relative;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  top: 40px;
+  height: calc(100% - 40px);
+  background-color: white;
+  overflow: auto;
+}
+.modal-close{
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}

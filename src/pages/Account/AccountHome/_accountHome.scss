@@ -1,0 +1,12 @@
+/* -------------------------------------------
+ * Section 1
+ * -----------------------------------------*/
+.screen_header{
+  margin:20px 16px 0 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(167, 167, 167)
+}
+
+@import "./component/accountHomeComponents";
+@import "./accountHome.responsive";

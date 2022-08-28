@@ -12,7 +12,7 @@ export * from "./useStorage";
 export { default as useAsync } from "./useAsync";
 export { default as useFetch } from "./useFetch";
 export { default as useDeepCompareEffect } from "./useDeepCompareEffect";
-export { default as useEventListener } from "./useEventListener";
+// export { default as useEventListener } from "./useEventListener";
 export { default as useGeolocation } from "./useGeolocation";
 export { default as useMediaQuery } from "./useMediaQuery";
 export { default as useOnScreen } from "./useOnScreen";

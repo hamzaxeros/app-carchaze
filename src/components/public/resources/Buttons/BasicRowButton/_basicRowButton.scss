@@ -1,0 +1,52 @@
+
+.basic_row_button--container {
+  background-color: #fff;
+}
+.basic_row_button--touchContainer {
+  padding: 10px 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.basic_row_button--borderWithMargin {
+  height: $borderHeight;
+  background-color: $basicBorderColor;
+}
+.basic_row_button--leftText {
+  text-align: left;
+  color: #000;
+  font-family: 'text-r';
+}
+.basic_row_button--leftView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.basic_row_button--rightView {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.basic_row_button--rightText {
+  font-size: 14px;
+  text-align: right;
+  color: #000;
+  font-family: 'text-r';
+}
+.basic_row_button--rightArrow {
+  margin-left: 6px;
+  fill: rgb(165, 165, 165);
+  color: rgb(165, 165, 165);
+  position: relative;
+  left: 6px;
+  font-size: 20px;
+
+}
+.basic_row_button--leftIconStyle {
+  margin-right: 6px;
+  font-size: 66px;
+  width: unset;
+  height: unset;
+}

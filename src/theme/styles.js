@@ -45,7 +45,8 @@ export const globalStyle = {
     marginRight: 16,
   },
   marginH: {
-    marginHorizontal: 16,
+    marginLeft: 16,
+    marginRight: 16,
   },
   marginT44: {
     marginTop: 44,
@@ -54,7 +55,8 @@ export const globalStyle = {
     marginBottom: 44,
   },
   marginVT44: {
-    marginVertical: 44,
+    marginTop: 44,
+    marginBottom: 44,
   },
   marginT16: {
     marginTop: 16,
@@ -63,7 +65,8 @@ export const globalStyle = {
     marginBottom: 16,
   },
   marginVT16: {
-    marginVertical: 16,
+    marginTop: 16,
+    marginBottom: 16,
   },
   marginT10: {
     marginTop: 10,
@@ -72,6 +75,7 @@ export const globalStyle = {
     marginBottom: 10,
   },
   marginVT10: {
-    marginVertical: 10,
+    marginTop: 10,
+    marginBottom: 10,
   },
 };
