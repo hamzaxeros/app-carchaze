@@ -1,17 +1,17 @@
 /**
- * AccountHomeDesktop
- * @module 🔗:src/pages/Account/AccountHomeDesktop/AccountHome.Desktop.js
+ * LoginDesktop
+ * @module 🔗:src/pages/Auth/Login/LoginDesktop.js
  * 
  * @author Hamza Hussain <hamza@carchaze.com>
  * @copyright CarChaze 2022
  * @version app.carchaze.com@0.1.0
- * @description AccountHome - Desktop View
+ * @description Login - Desktop View
  * 
  */
 
 import React from "react"
 
-const AccountDesktop = (props) => {
+const LoginDesktop = (props) => {
   //? States
 
   //? Refs
@@ -27,9 +27,9 @@ const AccountDesktop = (props) => {
   //? Main Return
   return (
     <React.Fragment>
-      <div>Account Desktop View</div>
+      <div>Login Desktop View</div>
     </React.Fragment>
   )
 }
 
-export default AccountDesktop
+export default LoginDesktop

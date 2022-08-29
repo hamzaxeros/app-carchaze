@@ -12,8 +12,8 @@
  import React from "react";
  import { platform } from "../../../utils";
  import { ChatIProps } from "./typedefs";
- import DesktopView from "./ChatDesktop";
- import MobileView from "./ChatMobile";
+ import DesktopView from "./Chat.Desktop";
+ import MobileView from "./Chat.Mobile";
 
 
  /**

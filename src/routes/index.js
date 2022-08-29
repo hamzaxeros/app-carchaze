@@ -1,1 +1,2 @@
-export {default as PublicRoutes} from "./PublicRoutes"
+export {default as AuthenticatedRoutes} from "./AuthenticatedRoutes"
+export {default as UnauthenticatedRoutes} from "./UnauthenticatedRoutes"

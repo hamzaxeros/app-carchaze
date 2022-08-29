@@ -4,7 +4,7 @@
  *
  * @author Hamza Hussain <hamza@carchaze.com>
  * @copyright CarChaze 2022
- * @version carchaze.com@0.2.0
+ * @version app.carchaze.com@0.1.0
  * @description AccountHome - Mobile View
  *
  */

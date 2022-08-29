@@ -1,5 +1,7 @@
 // INFO: Import all custom hooks here
 // EXAMPLE: import useMyHook from "./useCustom/useMyHook";
+import useAuth from "./customHooks/useAuth";
+import useAuthStateChange from "./customHooks/useAuthStateChange";
 
 export { default as useToggle } from "./useToggle";
 export { default as useTimeout } from "./useTimeout";
@@ -36,4 +38,7 @@ export { default as useHover } from "./useHover";
 
 // INFO: Export Custom hooks related to carchaze.com
 // EXAMPLE: export const useCustom = {myHook: useMyHook, myAnotherHook: useMyAnotherHook}
-export const useCustom = {};
+export const useCustom = {
+	authStateChange: useAuthStateChange,
+	auth: useAuth,
+};

@@ -3,7 +3,7 @@
  * @module 🔗:src/pages/Account/component/ProfileName.js
  * 
  * @author Hamza Hussain <hamza@carchaze.com>
- * @version 0.0.0
+ * @version app.carchaze.com@0.1.0
  * @description Account profile row
  * 
  */

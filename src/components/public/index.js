@@ -7,4 +7,6 @@ export { default as Card1 } from "./resources/Card/Card";
 export { default as ListStyler } from "./resources/ListStyler/ListStyler";
 export * as Carousel from "./resources/Carousel/Carousel";
 export { default as Modal } from "./resources/Modal/Modal";
+export { default as Loader } from "./resources/Loaders/Loader";
+export { default as Input } from "./resources/Input/Input";
 export const Button = { TouchableButton, BasicRowButton };

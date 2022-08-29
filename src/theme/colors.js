@@ -15,7 +15,7 @@ export default {
     popup_dark_color: '#e0e0e0',
     popup_bg_color: '#cccccc',
     action_sheet_border_color: '#c0c0c0',
-    modal_sheet_bg_color: 'rgba(0,0,0,0.3)',
+    modal_sheet_bg_color: 'rgba(0,0,0,0.2)',
     modal_sheet_light_bg_color: '#e2e2e2dd',
     alert_input_color: '#cfcfcf',
     toast_color: '#ec7272cf',

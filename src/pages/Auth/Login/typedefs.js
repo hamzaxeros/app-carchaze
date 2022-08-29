@@ -1,7 +1,7 @@
 /**
- * Props of TripHome Component
+ * Props of Login Component
  * @version app.carchaze.com@0.1.0
- * @typedef {object} TripHomeIProps
+ * @typedef {object} LoginIProps
  *
  */
  exports.unused = {};

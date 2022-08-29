@@ -1,18 +1,20 @@
 /**
- * TripHomeMobile
- * @module 🔗:src/pages/Trips/TripHome/TripHomeMobile.js
+ * LoginMobile
+ * @module 🔗:src/pages/Messages/Login/LoginMobile.js
  *
  * @author Hamza Hussain <hamza@carchaze.com>
  * @copyright CarChaze 2022
  * @version app.carchaze.com@0.1.0
- * @description TripHome - Mobile View
+ * @description Login - Mobile View
  *
  */
 
 import React from "react";
 import data from "./data.json";
+import {Input} from "./../../../components/public"
 
-const TripHomeMobile = (props) => {
+
+const LoginMobile = (props) => {
 	//? States
 
 	//? Refs
@@ -29,11 +31,11 @@ const TripHomeMobile = (props) => {
 	return (
 		<React.Fragment>
 			{/* ================== SECTION 01 =====================*/}
-			<section className="trip_home--section_1--container">
-				<h2>No trip booked</h2>
+			<section className="login--section_1--container">
+				<h2>Login Mobile - Screen</h2>
 			</section>
 		</React.Fragment>
 	);
 };
 
-export default TripHomeMobile;
+export default LoginMobile;

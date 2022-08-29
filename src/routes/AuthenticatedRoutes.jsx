@@ -3,9 +3,9 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { platform } from "../utils";
 import { CARCHAZE_WEB_SITE_URL } from "./../constants";
 
-import { Home, Host, Messages, Account, Auth, Trips } from "./../pages";
+import { Home, Host, Messages, Account, Trips } from "./../pages";
 
-const PublicMobileRoutes = () => {
+const AuthenticatedMobileRoutes = () => {
 	return (
 		<Switch>
 			<Route exact path="/search" component={Home.HomeStart} />
@@ -18,7 +18,7 @@ const PublicMobileRoutes = () => {
 		</Switch>
 	);
 };
-const PublicDesktopRoutes = () => {
+const AuthenticatedDesktopRoutes = () => {
 	useEffect(() => {
 		window.location.href = CARCHAZE_WEB_SITE_URL;
 	});
@@ -29,7 +29,7 @@ const PublicDesktopRoutes = () => {
 	);
 };
 
-const PublicRoutes = () => {
-	return platform.isMobile ? <PublicMobileRoutes /> : <PublicDesktopRoutes />;
+const AuthenticatedRoutes = () => {
+	return platform.isMobile ? <AuthenticatedMobileRoutes /> : <AuthenticatedDesktopRoutes />;
 };
-export default PublicRoutes;
+export default AuthenticatedRoutes;
