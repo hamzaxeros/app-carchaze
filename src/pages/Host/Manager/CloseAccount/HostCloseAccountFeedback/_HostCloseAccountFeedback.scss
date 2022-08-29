@@ -1,0 +1,29 @@
+
+.HostCloseAccountFeedback-outer{
+    background: url("../../../../../assets/images/Background-Close-Account.jpg") center center/cover;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 87vh;
+    .HostCloseAccountFeedback-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        textarea{
+            opacity: .65;
+            color: black;
+            border: none;
+            padding: 12px;
+        }
+    }
+    .HostCloseAccountFeedback-footer{
+        width: 90%;
+    }
+}

@@ -1,0 +1,18 @@
+.HostCloseAccountDetails-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 89vh;
+    align-items: center;
+    ul{
+        list-style-type: disclosure-closed;
+        padding: 16px;
+        li{
+            display: list-item;
+            padding: 8px;
+        }
+    }
+    .HostCloseAccountDetails-footer{
+        width: 100%;
+    }
+}

@@ -28,6 +28,8 @@ import Facebook from "../../../pages/Account/Facebook/Facebook";
 import AddVehicle from "../../../pages/Host/Listing/Basic/AddVehicle/AddVehicle";
 import IdentifyVehicle from "../../../pages/Host/Listing/Basic/IdentifyVehicle/IdentifyVehicle";
 
+import ApprovalPending from "../../../pages/Host/Manager/Basic/ApprovalPending/ApprovalPending";
+
 // Hosting Location Pages
 import AddAddress from "../../../pages/Host/Listing/Location/AddAddress/AddAddress";
 import ExactLocation from "../../../pages/Host/Listing/Location/ExactLocation/ExactLocation";
@@ -125,6 +127,13 @@ import ReasonUnlist from "../../../pages/Host/Manager/Unlist/ReasonUnlist/Reason
 import BasicUnlistTextPage from "../../../pages/Host/Manager/Unlist/BasicUnlistTextPage/BasicUnlistTextPage";
 import UnlistFeedback from "../../../pages/Host/Manager/Unlist/UnlistFeedback/UnlistFeedback";
 
+// Host close account pages
+import HostCloseAccountDetails from "../../../pages/Host/Manager/CloseAccount/HostCloseAccountDetails/HostCloseAccountDetails";
+import HostCloseAccountFeedback from "../../../pages/Host/Manager/CloseAccount/HostCloseAccountFeedback/HostCloseAccountFeedback";
+import HostCloseAccountReason from "../../../pages/Host/Manager/CloseAccount/HostCloseAccountReason/HostCloseAccountReason";
+
+import HostExtras from "../../../pages/Host/Manager/Basic/HostExtras/HostExtras";
+import HostProtectionPlan from "../../../pages/Host/Manager/Basic/HostProtectionPlan/HostProtectionPlan";
 
 import { PublicRoutes } from "../../../routes";
 
@@ -136,7 +145,14 @@ const Layout = (props) => {
 	return (
 		<React.Fragment>
 			
-			<UnlistFeedback />			{/* <BasicUnlistTextPage /> */}
+			<HostExtras />
+			{/* <HostProtectionPlan /> */}
+			{/* <ApprovalPending /> */}
+			{/* <HostCloseAccountFeedback /> */}
+			{/* <HostCloseAccountReason /> */}
+			{/* <HostCloseAccountDetails /> */}
+			{/* <UnlistFeedback />			 */}
+			{/* <BasicUnlistTextPage /> */}
 			{/* <ReasonUnlist /> */}
 			{/* <HostEnterEarnMoney /> */}
 			{/* <HostEnterYouCovered /> */}

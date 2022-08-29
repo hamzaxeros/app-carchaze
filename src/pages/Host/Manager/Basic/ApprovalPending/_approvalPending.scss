@@ -1,0 +1,19 @@
+.ApprovalPending-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+    img{
+        min-height: 300px;
+        width: auto ;
+        padding: 16px;
+    }
+}
+.ApprovalPending-content{
+    display: flex;
+    flex-direction: column;
+}
+.ApprovalPending-footer{
+    width: 90%;
+}

@@ -1,0 +1,30 @@
+.HostCloseAccountReason-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87vh;
+}
+.HostCloseAccountReason-footer{
+    width: 90%;
+}
+.HostCloseAccountReason-content{
+    width: 100%;
+}
+
+.HostCloseAccountReason-lists{
+    border-top: 1px solid #00000040;
+    border-bottom: 1px solid #00000040;
+    padding-left: 10px;
+    p{
+        align-items: center;
+        display: flex;
+        border-bottom: 1px solid #00000040;
+        justify-content: space-between;
+        padding: 16px;
+        input{
+            height: 24px;
+            width: 24px;
+        }
+    }
+}

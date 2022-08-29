@@ -938,6 +938,7 @@ img {
 }
 
 
+
 @import "./variables";
 @import "./font";
 
@@ -1041,3 +1042,11 @@ img {
 @import "../../pages/Host/Manager/Unlist/ReasonUnlist/reasonUnlist";
 @import "../../pages/Host/Manager/Unlist/UnlistFeedback/unlistFeedBack";
 
+@import "../../pages/Host/Manager/CloseAccount/HostCloseAccountFeedback/HostCloseAccountFeedback";
+@import "../../pages/Host/Manager/CloseAccount/HostCloseAccountDetails/hostCloseAccountDetails";
+@import "../../pages/Host/Manager/CloseAccount/HostCloseAccountReason/hostCloseAccountReason";
+
+@import "../../pages/Host/Manager/Basic/ApprovalPending/approvalPending";
+
+@import "../../pages/Host/Manager/Basic/HostProtectionPlan/hostProtectionPlan";
+@import "../../pages/Host/Manager/Basic/HostExtras/hostExtras";
