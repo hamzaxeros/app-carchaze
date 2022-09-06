@@ -1,17 +1,17 @@
 /**
- * SignupDesktop
- * @module 🔗:src/pages/Auth/Signup/SignupDesktop.js
+ * ConnectFacebookDesktop
+ * @module 🔗:src/pages/ConnectFacebook/ConnectFacebook/ConnectFacebookDesktop.js
  * 
  * @author Hamza Hussain <hamza@carchaze.com>
  * @copyright CarChaze 2022
  * @version app.carchaze.com@0.1.0
- * @description Signup - Desktop View
+ * @description ConnectFacebook - Desktop View
  * 
  */
 
 import React from "react"
 
-const SignupDesktop = (props) => {
+const ConnectFacebookDesktop = (props) => {
   //? States
 
   //? Refs
@@ -27,9 +27,9 @@ const SignupDesktop = (props) => {
   //? Main Return
   return (
     <React.Fragment>
-      <div>Signup Desktop View</div>
+      <div>ConnectFacebook Desktop View</div>
     </React.Fragment>
   )
 }
 
-export default SignupDesktop
+export default ConnectFacebookDesktop

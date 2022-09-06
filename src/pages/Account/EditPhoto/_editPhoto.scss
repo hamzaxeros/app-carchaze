@@ -1,0 +1,48 @@
+/* -------------------------------------------
+ * Section 1
+ * -----------------------------------------*/
+
+.account--edit_photo--container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.account--edit_photo--topText {
+	text-align: left;
+	font-size: 17px;
+	font-family: "text-r";
+	color: #000;
+}
+.account--edit_photo--imageContainerStyle {
+	height: calc(100vw - 50px);
+	width: calc(100vw - 50px);
+	align-self: center;
+	background-color: transparent;
+	max-height: 350px;
+	max-width: 350px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 100%;
+  padding: 0;
+  overflow: visible;
+}
+.account--edit_photo--imageStyle {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	object-fit: cover;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.309);
+}
+.account--edit_photo--iconStyle {
+	font-size: calc(100vw - 50px);
+	color: rgba(102, 102, 102, 0.1);
+}
+
+@import "./editPhoto.responsive";

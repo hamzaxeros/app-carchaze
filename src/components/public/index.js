@@ -9,4 +9,6 @@ export * as Carousel from "./resources/Carousel/Carousel";
 export { default as Modal } from "./resources/Modal/Modal";
 export { default as Loader } from "./resources/Loaders/Loader";
 export { default as Input } from "./resources/Input/Input";
+export { default as ActionSheet } from "./resources/ActionSheet/ActionSheet";
+export { default as Toast } from "./resources/Toast/Toast";
 export const Button = { TouchableButton, BasicRowButton };

@@ -1,18 +1,56 @@
 /* -------------------------------------------
  * Section 1
  * -----------------------------------------*/
- .login--section_1--container{
+ .login--outer{
+  padding-top: 44px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: rgb(194, 194, 194);
+  justify-content: space-between;
+  flex:1;
   height: 100%;
-  padding: 40px 50px;
-  h2{
-    font-size: 15px
+  align-items: center;
+  flex-direction: column;
+}
+.login--top_text{
+  margin: 0 16px 44px 16px;
+}
+.login--input_number{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.login--small_text{
+  font-size: small;
+  margin: 0 16px;
+}
+.login--footer{
+  margin: 44px 16px 0 16px;
+  text-align: center;
+  display: block;
+  width: calc(100% - 32px);
+  p{
+    line-height: 1.3rem;
   }
- }
-
+}
+// Third party code
+.react-tel-input {
+  border: none !important;
+  
+  input{
+    border-radius: 0 !important;
+    font-size: 17px !important;
+    width: 100% !important;
+    height: 44px !important;
+    border: none !important;
+    border-top: $borderHeight solid $basicBorderColor !important;
+    border-bottom: $borderHeight solid $basicBorderColor !important;
+  }
+  .flag-dropdown {
+    font-size: 17px !important;
+    border: none !important;
+    border-top: $borderHeight solid $basicBorderColor !important;
+    border-bottom: $borderHeight solid $basicBorderColor !important;
+    background-color: #fff !important;
+    padding: 0 10px;
+  }
+}
 
 @import "./login.responsive";

@@ -25,6 +25,7 @@
   justify-content: flex-start;
 }
 .basic_row_button--rightView {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;

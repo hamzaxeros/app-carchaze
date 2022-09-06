@@ -1,0 +1,22 @@
+.toast--main_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+.toast--container {
+	position: absolute;
+	margin: 0 20px;
+	background-color: $toastColor;
+	border-radius: 30px;
+	align-self: center;
+	padding: 6px 15px;
+	border-width: 0;
+	bottom: 30px;
+}
+.toast--text {
+	color: white;
+	font-size: 14px;
+	font-family: "text-r";
+	text-align: center;
+}

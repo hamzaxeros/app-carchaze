@@ -1,5 +1,5 @@
-import React from 'react';
-import {colors, typography} from '../../../../theme';
+import React from "react";
+import { colors, typography } from "../../../../theme";
 
 /**
  * @typedef {object} InputType
@@ -39,135 +39,153 @@ import {colors, typography} from '../../../../theme';
  * @param {InputIProps} props
  * @returns
  */
-const Input = props => {
-  const {
-    leftTitle,
-    leftTitleWidth = 100,
-    leftTitleColor = '#000',
-    leftTitleFontSize = typography.size.font.md,
-    inputFontSize = typography.size.font.md,
-    dimHeading,
-    heading,
-    headingStyle,
-    mt_heading,
-    mb_heading,
-    mr_heading,
-    ml_heading,
-    cmt_heading,
-    cmb_heading,
-    cml_heading,
-    cmr_heading,
+const Input = (props) => {
+	const {
+		leftTitle,
+		leftTitleWidth = 100,
+		leftTitleColor = "#000",
+		leftTitleFontSize = typography.size.font.md,
+		inputFontSize = typography.size.font.md,
+		dimHeading,
+		heading,
+		headingStyle,
+		mt_heading,
+		mb_heading,
+		mr_heading,
+		ml_heading,
+		cmt_heading,
+		cmb_heading,
+		cml_heading,
+		cmr_heading,
 
-    cmb_input_view,
-    cmt_input_view,
-    cml_input_view,
-    cmr_input_view,
+		cmb_input_view,
+		cmt_input_view,
+		cml_input_view,
+		cmr_input_view,
 
-    ml_t_border,
-    cml_t_border,
-    cml_b_border,
-    ml_b_border,
-  } = props?.options || {};
+		ml_t_border,
+		cml_t_border,
+		cml_b_border,
+		ml_b_border,
+	} = props?.options || {};
 
-  const headingTextStyle = {
-    marginLeft: cml_heading || ml_heading ? 16 : undefined,
-    marginRight: cmr_heading || mr_heading ? 16 : undefined,
-    marginTop: cmt_heading || mt_heading ? 44 : undefined,
-    marginBottom: cmb_heading || mb_heading ? 10 : undefined,
-    fontFamily: dimHeading ? 'text-r' : 'text-s',
-    fontSize: 13,
-    color: dimHeading ? 'grey' : '#000',
-    backgroundColor: 'transparent',
-  };
-  const inputWrapper = {
-    marginTop: cmt_input_view,
-    marginBottom: cmb_input_view,
-    marginLeft: cml_input_view,
-    marginRight: cmr_input_view,
-    backgroundCOlor:'#fff',
-  };
-  const customTopBorderStyle = {
-    marginLeft: cml_t_border || 16,
-  };
-  const customBottomBorderStyle = {
-    marginLeft: cml_b_border || 16,
-  };
-  const inputWrapperView = {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: props.options.multiline !== undefined ? 'flex-start' : 'center',
-    backgroundColor: '#fff',
-    borderColor: colors.basic_border_color,
-  };
-  const leftTitleStyle = {
-    fontSize: leftTitleFontSize,
-    color: leftTitleColor,
-    marginLeft: 16,
-    paddingTop: props.options.multiline !== undefined ? 9 : undefined,
-    marginRight: 0,
-    fontFamily: 'text-r',
-    width: leftTitleWidth,
-  };
-  const textInputStyle = {
-    border:'none',
-    fontSize: inputFontSize,
-    color: '#000',
-    fontFamily: 'text-r',
-    marginLeft: 0,
-    paddingRight: 16,
-    height: props.options.multiline ? 300: 44,
-    flex: 1,
-    paddingLeft: leftTitle ? undefined : 16,
-    minHeight: props.options.multiline ? 44 : undefined,
-    maxHeight: props.options.multiline ? 150 : undefined,
-    paddingTop: props.options.multiline ? 10 :0,
-    paddingBottom: props.options.multiline ? 10 :0
-  };
+	const headingTextStyle = {
+		marginLeft: cml_heading || ml_heading ? 16 : undefined,
+		marginRight: cmr_heading || mr_heading ? 16 : undefined,
+		marginTop: cmt_heading || mt_heading ? 44 : undefined,
+		marginBottom: cmb_heading || mb_heading ? 10 : undefined,
+		fontFamily: dimHeading ? "text-r" : "text-s",
+		fontSize: 13,
+		color: dimHeading ? "grey" : "#000",
+		backgroundColor: "transparent",
+	};
+	const inputWrapper = {
+		marginTop: cmt_input_view,
+		marginBottom: cmb_input_view,
+		marginLeft: cml_input_view,
+		marginRight: cmr_input_view,
+		backgroundCOlor: "#fff",
+	};
+	const customTopBorderStyle = {
+		marginLeft: cml_t_border || 16,
+	};
+	const customBottomBorderStyle = {
+		marginLeft: cml_b_border || 16,
+	};
+	const inputWrapperView = {
+		display: "flex",
+		flexDirection: "row",
+		// justifyContent: "center",
+		alignItems:
+			props.options.multiline !== undefined ? "flex-start" : "center",
+		backgroundColor: "#fff",
+		borderColor: colors.basic_border_color,
+	};
+	const leftTitleStyle = {
+		fontSize: leftTitleFontSize,
+		color: leftTitleColor,
+		marginLeft: 16,
+		paddingTop: props.options.multiline !== undefined ? 9 : undefined,
+		marginRight: 0,
+		fontFamily: "text-r",
+		minWidth: leftTitleWidth,
+	};
+	const textInputStyle = {
+		border: "none",
+		fontSize: inputFontSize,
+		color: "#000",
+		fontFamily: "text-r",
+		marginLeft: 0,
+		paddingRight: 16,
+		height: props.options.multiline ? 300 : 44,
+		flex: 1,
+		paddingLeft: leftTitle ? undefined : 16,
+		minHeight: props.options.multiline ? 44 : undefined,
+		maxHeight: props.options.multiline ? 150 : undefined,
+		paddingTop: props.options.multiline ? 10 : 0,
+		paddingBottom: props.options.multiline ? 10 : 0,
+	};
 
-  return (
-    <div>
-      {/* Heading */}
-      {heading !== undefined ? (
-        <p
-          style={{
-            ...headingTextStyle,
-            ...headingStyle,
-            
-          }}
-        >
-          {heading}
-        </p>
-      ) : null}
+	return (
+		<div>
+			{/* Heading */}
+			{heading !== undefined ? (
+				<p
+					style={{
+						...headingTextStyle,
+						...headingStyle,
+					}}
+				>
+					{heading}
+				</p>
+			) : null}
 
-      {/* Input Wrapper */}
-      <div style={inputWrapper}>
-        {/* Border Top */}
-        {ml_t_border || cml_t_border ? (
-          <div className='input--borderingStyle' style={{ ...customTopBorderStyle }} />
-        ) : null}
-        <div
-          // @ts-ignore
-          style={inputWrapperView}
-        >
-          {leftTitle ? <p style={leftTitleStyle}>{leftTitle}</p> : null}
-          <input
-            {...props}
-            style={{
-              ...textInputStyle,
-              // @ts-ignore
-              ...props.style,
-            }}
-          />
-        </div>
-        {/* Border Bottom */}
-        {ml_b_border || cml_b_border ? (
-          <div className='input--borderingStyle' style={{ ...customBottomBorderStyle }} />
-        ) : null}
-      </div>
-    </div>
-  );
+			{/* Input Wrapper */}
+			<div style={inputWrapper}>
+				{/* Border Top */}
+				{ml_t_border || cml_t_border ? (
+					<div
+						className="input--borderingStyle"
+						style={{ ...customTopBorderStyle }}
+					/>
+				) : null}
+				<div
+					// @ts-ignore
+					style={inputWrapperView}
+				>
+					{leftTitle ? (
+						<p style={leftTitleStyle}>{leftTitle}</p>
+					) : null}
+					{props.options?.multiline ? (
+						<textarea
+							{...props}
+							style={{
+								...textInputStyle,
+								// @ts-ignore
+								...props.style,
+							}}
+						/>
+					) : (
+						<input
+							{...props}
+							style={{
+								...textInputStyle,
+								// @ts-ignore
+								...props.style,
+							}}
+						/>
+					)}
+				</div>
+				{/* Border Bottom */}
+				{ml_b_border || cml_b_border ? (
+					<div
+						className="input--borderingStyle"
+						style={{ ...customBottomBorderStyle }}
+					/>
+				) : null}
+			</div>
+		</div>
+	);
 };
-
 
 export default Input;

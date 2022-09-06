@@ -1,0 +1,30 @@
+.account--manage_account--itemSmallHeading {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 44px;
+  margin-bottom: 10px;
+  font-family: text-r;
+  font-size: 13px;
+  color: grey;
+  text-align: left;
+  background-color: transparent;
+}
+
+.account--manage_account--closeMyAccountContainer {
+  // ...globalStyle.marginT44,
+  // ...globalStyle.marginB44,
+  background-color: #fff;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  // ...globalStyle.fullTopBottomLine,
+}
+.account--manage_account--closeMyAccountText {
+  text-align: center;
+  font-size: 17px;
+  font-family: text-sb;
+  color: $basicColor;
+}
+
+
+@import "./manageAccount.responsive";

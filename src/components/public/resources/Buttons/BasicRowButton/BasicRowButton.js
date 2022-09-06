@@ -91,7 +91,7 @@ const BasicRowButton = (props) => {
 
 	return (
 		<div
-			className="basic_row_button--container"
+			className="basic_row_button--container user-select-none"
 			style={{
 				...customContainer,
 				...contentContainerStyle,

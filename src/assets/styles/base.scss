@@ -846,7 +846,9 @@ a {
 ul {
 	list-style-type: none;
 }
-
+// p,span,a{
+// 	line-height: 1.1rem;;
+// }
 /* -----------------------------------------------------------
 * Custom Classes
 * ----------------------------------------------------------*/
@@ -903,14 +905,100 @@ a:hover {
 img {
 	user-select: none;
 	-webkit-user-select: none;
-	moz-user-select: none;
+	-moz-user-select: none;
 	-webkit-user-drag: none;
 	pointer-events: none;
+}
+textarea {
+	resize: none;
+}
+body {
+	height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+	height: calc(var(--vh, 1vh) * 100);
+}
+.global_style--mainContainer {
+	background-color: #f2f2f7;
+	height: 100%;
+}
+.global_style--safeAreaContainer {
+	height: 100%;
+	background-color: #fff;
+}
+.global_style--itemSmallHeading {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 44px;
+	margin-bottom: 10px;
+	font-family: text-r;
+	font-size: 13px;
+	color: grey;
+	text-align: left;
+	background-color: transparent;
+}
+.global_style--fullTopLine {
+	border: none;
+	border-top-width: 1px;
+	border-top-color: $basicBorderColor;
+	border-style: solid;
+}
+.global_style--fullBottomLine {
+	border: none;
+	border-bottom-width: 1px;
+	border-bottom-color: $basicBorderColor;
+	border-style: solid;
+}
+.global_style--fullTopBottomLine {
+	border: none;
+	border-bottom-width: 1px;
+	border-bottom-color: $basicBorderColor;
+	border-style: solid;
+	border-top-width: 1px;
+	border-top-color: $basicBorderColor;
+	border-style: solid;
+}
+.global_style--marginL {
+	margin-left: 16px;
+}
+.global_style--marginR {
+	margin-right: 16px;
+}
+.global_style--marginH {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.global_style--marginT44 {
+	margin-top: 44px;
+}
+.global_style--marginB44 {
+	margin-bottom: 44px;
+}
+.global_style--marginVT44 {
+	margin-top: 44px;
+	margin-bottom: 44px;
+}
+.global_style--marginT16 {
+	margin-top: 16px;
+}
+.global_style--marginB16 {
+	margin-bottom: 16px;
+}
+.global_style--marginVT16 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.global_style--marginT10 {
+	margin-top: 10px;
+}
+.global_style--marginB10 {
+	margin-bottom: 10px;
+}
+.global_style--marginVT10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 // =============================  SUB Component - Pages  =============================
 @import "./../../pages/Home/HomeStart/components/ListStyler/listStyle";
-
 
 // =============================  Component - Public  =============================
 @import "../../components/public/resources/Card/card";
@@ -921,6 +1009,8 @@ img {
 @import "../../components/public/resources/Buttons/BasicRowButton/basicRowButton";
 @import "../../components/public/resources/Loaders/loader";
 @import "../../components/public/resources/Input/input";
+@import "../../components/public/resources/ActionSheet/actionSheet";
+@import "../../components/public/resources/Toast/toast";
 
 // =============================  Component - Utility  =============================
 @import "../../components/utility/resources/TabBar/tabbar";
@@ -929,6 +1019,26 @@ img {
 // =============================  Pages - Static  =============================
 @import "../../pages/Home/HomeStart/homeStart";
 @import "../../pages/Host/HostHome/hostHome";
-@import "../../pages/Account/AccountHome/accountHome";
 @import "../../pages/Messages/Chat/chat";
 @import "../../pages/Trips/TripHome/tripHome";
+
+// =============================  Pages - Static - Account  =============================
+@import "../../pages/Account/AccountHome/accountHome";
+@import "../../pages/Account/EditProfile/editProfile";
+@import "../../pages/Account/ManageAccount/manageAccount";
+@import "../../pages/Account/ConnectFacebook/connectFacebook";
+@import "../../pages/Account/EditPhoto/editPhoto";
+
+// =============================  Pages - Static - Auth  =============================
+@import "../../pages/Auth/Login/login";
+@import "../../pages/Auth/Verify/verify";
+
+// Overrwriting area
+@media (min-width: 600px) {
+	.mobile-frame {
+		border-right: 1px solid black;
+		border-left: 1px solid black;
+		box-shadow: inset 1px 1px 10px rgba(99, 99, 99, 0.427);
+		z-index: 10000;
+	}
+}

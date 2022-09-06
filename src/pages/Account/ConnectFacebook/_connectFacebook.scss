@@ -1,0 +1,22 @@
+/* -------------------------------------------
+ * Section 1
+ * -----------------------------------------*/
+.account--connect_account--container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+.account--connect_account--text {
+	margin: 44px 16px 16px 16px;
+}
+.account--connect_facebook--connect_facebook_button {
+
+	svg {
+		font-size: 26px;
+		color: #3b5998;
+    margin: 0 10px
+	}
+}
+
+@import "./connectFacebook.responsive";

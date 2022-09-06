@@ -1,0 +1,80 @@
+.action_sheet--backContainer {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: $modalSheetBgColor;
+}
+.action_sheet--frontContainer {
+	left: 20px;
+	right: 20px;
+	background-color: transparent;
+	bottom: 25px;
+	position: absolute;
+}
+.action_sheet--titleBarContainer {
+	background-color: $popupColor;
+	padding: 20px;
+  border: none;
+  border-bottom-style: solid;
+	border-bottom-color: $actionSheetBorderColor;
+	border-bottom-width: 0.5px;
+}
+.action_sheet--titleBar {
+	text-align: center;
+	color: grey;
+	font-family: "text-sb";
+	font-size: 17px;
+}
+.action_sheet--description {
+	text-align: center;
+	color: grey;
+	font-family: "text-r";
+	font-size: 13px;
+	margin-top: 7px;
+}
+.action_sheet--buttons {
+	display: flex;
+	min-height: 60px;
+	background-color: $popupColor;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	padding: 5px 16px;
+  cursor: pointer;
+	transition: all 0.2s ease-in-out;
+
+	&:hover{
+		opacity: 0.9;
+	}
+}
+.action_sheet--cancelButtonContainer {
+	background-color: $popupBgColor;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.action_sheet--cancelButton {
+	justify-content: center;
+	
+}
+.action_sheet--cancelButtonText {
+	font-family: "text-sb";
+	text-align: center;
+}
+.action_sheet--ionicon {
+	color: $basicColor;
+	font-size: 30px;
+	margin-right: 20px;
+}
+.action_sheet--text {
+	font-size: 17px;
+	font-family: "text-r";
+	color: $basicColor;
+}
+.action_sheet--topContainerButton {
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: $popupBgColor;
+}

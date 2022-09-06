@@ -8,10 +8,10 @@ import { Auth } from "./../pages";
 const UnauthenticatedMobileRoutes = () => {
 	return (
 		<Switch>
-			<Route exact path="/login" component={Auth.Login} />
-			<Route exact path="/signup" component={Auth.Signup} />
+			<Route exact path="/auth/phone" component={Auth.Login} />
+			<Route exact path="/auth/phone/verify" component={Auth.Verify} />
 
-			<Redirect to={"/login"} />
+			<Redirect to={"/auth/phone"} />
 		</Switch>
 	);
 };

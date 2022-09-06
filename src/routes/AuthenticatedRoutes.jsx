@@ -11,8 +11,13 @@ const AuthenticatedMobileRoutes = () => {
 			<Route exact path="/search" component={Home.HomeStart} />
 			<Route exact path="/host" component={Host.HostHome} />
 			<Route exact path="/messages" component={Messages.Chat} />
-			<Route exact path="/account" component={Account.AccountHome} />
 			<Route exact path="/trips" component={Trips.TripHome} />
+			{/* ========== Account Routes ========== */}
+			<Route exact path="/account" component={Account.AccountHome} />
+			<Route exact path="/account/edit-profile" component={Account.EditProfile} />
+			<Route exact path="/account/edit-profile/photo" component={Account.EditPhoto} />
+			<Route exact path="/account/manage" component={Account.ManageAccount} />
+			<Route exact path="/account/manage/connect-facebook" component={Account.ConnectFacebook} />
 
 			<Redirect to={"/search"} />
 		</Switch>

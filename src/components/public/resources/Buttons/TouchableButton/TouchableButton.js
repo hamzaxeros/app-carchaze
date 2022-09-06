@@ -62,7 +62,7 @@ const TouchableButton = (props) => {
 		marginR,
 		marginT,
 		marginB,
-		noRadius = false,
+		noRadius = true,
 		textStyle,
 		height,
 		width,
@@ -79,7 +79,6 @@ const TouchableButton = (props) => {
 		marginRight: marginH || marginR,
 		marginTop: marginV || marginT,
 		marginBottom: marginV || marginB,
-
 		margin: margin,
 		borderRadius: noRadius ? 0 : 8,
 		height: height || 50,
@@ -104,7 +103,8 @@ const TouchableButton = (props) => {
 	return (
 		<div
 			{...props}
-			className={`touchable_button--containerOfTouchableOpacity ${props.className}`}
+			disabled={disabled}
+			className={`touchable_button--containerOfTouchableOpacity ${props.disabled ? "":"pointer-cursor"} user-select-none ${props.className}`}
 			style={{
 				...customStyle,
 				...props.style,
